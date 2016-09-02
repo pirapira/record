@@ -1,5 +1,26 @@
 2016-09-02  Yoichi Hirai  <yoichi@ethereum.org>
 
+	* why3: removed all unwanted axioms from token.mlw
+	https://github.com/pirapira/token_why3/blob/master/token.mlw#L167
+
+	* read: TALx86
+
+	* ../solidity/libsolidity/ast/ASTForward.h (dev): a definition can appear in using A = B
+
+	* emacs: M-. and then M-*
+
+	* ../solidity/libsolidity/interface/InterfaceHandler.cpp (abiInterface): review #996
+	https://github.com/ethereum/solidity/pull/996
+
+	* emacs: configured C++ reading environment
+	http://tuhdo.github.io/c-ide.html
+
+	* comm: had a look at a thesis
+	http://www.diku.dk/hjemmesider/ansatte/hvitved/publications/hvitved12phd.pdf
+
+	* comm: made some comments on the announcement
+	https://www.reddit.com/r/ethereum/comments/50ojqr/new_blog_post_dev_update_formal_methods/
+
 	* emacs: configured a keyboard macro for adding an entry here
 	;; http://0xcc.net/unimag/1/
 	(defun memo ()
