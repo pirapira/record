@@ -1,0 +1,24 @@
+2016-09-02  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* emacs: configured a keyboard macro for adding an entry here
+	;; http://0xcc.net/unimag/1/
+	(defun memo ()
+	  (interactive)
+	  (add-change-log-entry
+	    nil
+	    (expand-file-name "~/src/record/ChangeLog")))
+	(setq add-log-full-name "Yoichi Hirai"
+	  add-log-mailing-address "yoichi@ethereum.org")
+	(global-set-key (kbd "M-l") 'memo)
+
+2016-09-01  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* why3: writing token.mlw
+	https://github.com/pirapira/token_why3
+
+	* comm: discussion with @chriseth
+	Which direction we are heading
+	What to look at
+
+	* comm: joined many channels
+
