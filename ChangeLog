@@ -1,4 +1,39 @@
+2016-09-05  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* ../go-ethereum/eth/api.go: TraceTransaction
+	I came up with an idea of annotating vm.trace with the origins of the values on the stack.
+	Maybe this would add {op_arg_origin: [{step: 6, desc: "CALLER"}]} in each step.
+
+2016-09-04  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* general: on Gitter, explained the trade off between the bytecode verification and Solidity verification
+	bytecode has ease of verification, and the trustworthiness of the result
+	Solidity has readability
+
+	* ewasm: WASM semantics in K system
+	https://github.com/kframework/wasm-semantics
+	looks small.  Is this the whole language?
+
+2016-09-03  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* why3: lively discussion on Gitter
+	@mrsmkl shortened the why3-token file
+	"why3" tactic not working with Coq 8.5
+	@leonardoalt SeaHorn and CPAChecker might be able to prove invariants
+	Think about Solidity -> LLVM and what can be done
+
+	* dry: got a pull-request from @tomsib2001
+
+	* env: got a chair and a desk at home.
+
+	* dry: Dr. Y's anayzer out in reddit.  Got some feedbacks.  Need to implement all instructions.
+
 2016-09-02  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* why3: double_wp module
+	A formalization of a stack machine.  Possible to verify bytecode fragments and then compose them.
+
+	* ../evmverif/why3: started formalizing EVM in Why3
 
 	* why3: removed all unwanted axioms from token.mlw
 	https://github.com/pirapira/token_why3/blob/master/token.mlw#L167
