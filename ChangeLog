@@ -1,8 +1,38 @@
+2016-09-06  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* read: http://research.microsoft.com/en-us/um/people/nswamy/papers/solidether.pdf
+	Eth effect useful under a particular design pattern, where any send failures would abort the whole program execution.
+	The Eth condition can be strengthened so that it guarantees, after one call fails no subsequent calls would happen.
+
+	* read: https://github.com/ewasm/evm2wasm/blob/master/wasm/ADDMOD.wast
+	256 bit calculus -> 64 bit calculus measn everything has to be done four times.
+	This kind of problem is a good target for Isabelle/HOL, for instance.
+
+	* read:
+	https://medium.com/@graycoding/lessons-learned-from-making-a-chess-game-for-ethereum-6917c01178b6
+	This means
+	- there should be a way to translate state diagram into executables
+	- need of off-chain, on-chain integration
+	  (maybe some partial evaluation type systems)
+
 2016-09-05  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* dry: added arithmetic instructions
+	https://github.com/pirapira/dry-analyzer/issues/6
+
+	* cpp-ethereum: created #3287
+
+	* solidity: reviewed #994 and #993
+
+	* general: created a list of projects with merits/time points.
+
+	* dry: created issues for missing opcodes.
 
 	* ../go-ethereum/eth/api.go: TraceTransaction
 	I came up with an idea of annotating vm.trace with the origins of the values on the stack.
 	Maybe this would add {op_arg_origin: [{step: 6, desc: "CALLER"}]} in each step.
+	http://ethereum.stackexchange.com/questions/4282/how-to-check-the-vm-trace-using-geth
+	So, created a github issue about it.  https://github.com/pirapira/dry-analyzer/issues/11
 
 2016-09-04  Yoichi Hirai  <yoichi@ethereum.org>
 
