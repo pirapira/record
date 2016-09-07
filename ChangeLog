@@ -1,4 +1,65 @@
+2016-09-07  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* ../solidity/libsolidity/formal/Why3Translator.cpp: Oh it collapeses all namespaces...
+	(appendPreface): raw string literal R"....".
+
+	* ../solidity/libsolidity/ast/AST_accept.h (dev): This file defines the visiting order
+	(dev) saw the visitor pattern.  In OCaml there would be a traversing function that takes a function.
+
+	* ../solidity/libsolidity/ast/AST.h (dev): need to know the difference of Default, Private, Internal, Public, External
+
+	* ../solidity/libsolidity/ast/ASTAnnotations.h (dev): "///<" tells doxygen that the comment comes after the element
+
+	* ../solidity/libsolidity/ast/Types.h (dev): what is TypeType? ... as in uint32(2)
+	(dev): what is InaccessibleDynamic?
+	(dev): what is a `using for` directive?
+	(dev): why is IntegerType::m_bits signed?
+	(dev): calldataEncodedSize assumes m_bits is not larger than 256.
+	(dev): isAddress(), isSigned() why expose two bits instead of a ternary choice?
+	(dev): FixpointType::calldataEncodedSize() also assumes everything is not bigger than 256 bits, but the constructor forces it.
+	(dev): how to interface mappings when libraries
+	(dev): `actualType` is is actual?
+
+	* ../solidity/libsolidity/parsing/Token.h (dev):
+	I cannot imagine how ElementaryTypeNameToken would be used.  Two numbers?
+
+	* ../solidity/libsolidity/ast/ASTForward.h: I've never thought about accumulating many forward declarations into one file.  neat.
+
+	* ../solidity/libsolidity/interface/Exceptions.h (dev): So, we live in ::dev::solidity
+	(dev): Why3TranslatorError seems useful
+	(dev): Why is a list called SecondarySourceLocation
+	(dev): boost::error_info, wow this uses an incomplete type as a tag!
+
+	* ../solidity/libdevcore/Exceptions.h (dev): err_info_comment etc seem useful.
+
+	* ../solidity/libdevcore/FixedHash.h (dev): "\342\200\246" is what?
+
+	* ../solidity/libdevcore/Common.h (dev): ScopeGuard should be useful
+
+	* solidity: trying to solve some ambiguities in
+	#1037, #1038
+
+	* emacs: (setq-default c-default-style "bsd")
+	This looked closer to our style.
+
+	* read: http://www.spark-2014.org/entries/detail/research-corner-spark-2014-vs-frama-c-vs-why3
+	compares Ada SPARK and Frama-C
+	design choices
+	ghost code
+	understanding failures
+	Does it make sense to dynamically check the post-conditions at runtime?
+	  ah, OK, that's why E-ACSL was created.
+	Does it make sense to allow program functions in the specification?
+	  In that case, like in SPARK, side-effect-less functions should be considered.
+	Maybe ghost codes should be supported
+	Maybe view functions should be available in the specification
+
 2016-09-06  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* solidity: test/soltest
+	When I run it it shows a message `ERROR: ipcPath not set!`
+	Maybe I should start a client instance for this one.
+	Is this tool documented?
 
 	* read: http://research.microsoft.com/en-us/um/people/nswamy/papers/solidether.pdf
 	Eth effect useful under a particular design pattern, where any send failures would abort the whole program execution.
