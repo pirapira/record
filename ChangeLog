@@ -1,3 +1,22 @@
+2016-09-08  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* dry: added ORIGIN, CODESIZE and PC instructions
+	https://github.com/pirapira/dry-analyzer
+
+	* solidity: trying solc --formal token.sol
+	I'm meeting many problems one after another.  Many problems depend on each other: before solving one I cannot even observe the other.
+	In solidity repository, reported #1054, #1062, #1065 and #1066 about this.
+	I opened PRs for #1054 and #1062 but I haven't started with the last two.
+
+	* lifehack:
+	I started using something like a legal pad to keep track of what I'm doing.
+	Whenever I come up with a thing to do, I add it as the last line, but keep on working on the current item.
+	When the current item is not urgent it goes to the todo app, and the line is crossed out.
+	When the current item depends on something else, I draw an arrow showing the dependency and move to the next item.
+	When I have to wait for the machine, I start on the next item in parallel.
+	One thing I found today.  I started writing the tmux pane index to the current items.
+	This makes it much easier to go back where I was.
+
 2016-09-07  Yoichi Hirai  <yoichi@ethereum.org>
 
 	* ../solidity/libsolidity/formal/Why3Translator.cpp: Oh it collapeses all namespaces...
