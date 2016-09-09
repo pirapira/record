@@ -1,3 +1,13 @@
+2016-09-09  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* solidity: Translation of mapping[idx] being developed locally; now blocked by #1045.
+	Maybe I should start creating a bigger PR.  That's easier to manage.
+
+	* dry: now only one instruction is missing
+
+	* yellowpaper: wondered how memory sizes are computed after [2^255-1, 7) bytes are accessed.
+	Created a PR.
+
 2016-09-08  Yoichi Hirai  <yoichi@ethereum.org>
 
 	* dry: added ORIGIN, CODESIZE and PC instructions
