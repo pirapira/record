@@ -1,5 +1,9 @@
 2016-09-09  Yoichi Hirai  <yoichi@ethereum.org>
 
+	* env: introduced ccache
+
+	* lifehack: Alt-Tab with one hand is a bit constraining. Using both hands it's much easier.
+
 	* solidity: Translation of mapping[idx] being developed locally; now blocked by #1045.
 	Maybe I should start creating a bigger PR.  That's easier to manage.
 
