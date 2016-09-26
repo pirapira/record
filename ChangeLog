@@ -1,5 +1,15 @@
 2016-09-26  Yoichi Hirai  <yoichi@ethereum.org>
 
+	* plan:
+	thinking how much time to spend on what project.
+	enricher: short / high impact: 40%
+	dry: next goal is big anyway: 2%
+	compare verification tools: main: 15%
+	bamboo: long / high impact: 10%
+
+	* solidity: reported issue #1121 as well
+	Just something about non-existent options.
+
 	* solidity: reported issue #1120
 	I was trying to do something else when I hit the internal compiler error.
 
