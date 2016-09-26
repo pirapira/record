@@ -1,3 +1,44 @@
+2016-09-26  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* solidity: reported issue #1120
+	I was trying to do something else when I hit the internal compiler error.
+
+	* read: https://uport.me/#home
+
+	* comm: on the gitter formal verification channel, people were wondering about Oyente's internal state representation.
+	created oyente#5 for division by zero
+
+	* ../go-ethereum/core/state/state_object.go:
+	was reading recent changes.
+
+2016-09-14  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* bamboo: parser can parse a simple example
+
+	* env: preparing for trip
+
+2016-09-13  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* ../solidity/test/libsolidity/SolidityEndToEndTest.cpp (dev):
+	picked up an issue that looked easy enough.  (minint()/(-1).
+
+2016-09-12  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* solidity:
+	prepared a Why3 example before the talk
+	also prepared some of the slides
+
+2016-09-11  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* read: https://ethereum.karalabe.com/talks/2016-hackethon.html#21
+	This is a very good talk.
+
+2016-09-10  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* solidity: #1053
+	array of arrays.
+	aliasing.
+
 2016-09-09  Yoichi Hirai  <yoichi@ethereum.org>
 
 	* env: introduced ccache
