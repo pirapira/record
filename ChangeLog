@@ -1,3 +1,32 @@
+2016-09-28  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* comm: some discussion on gitter
+
+	* enricher:
+	https://github.com/pirapira/vmtrace_enricher
+	getting in shape
+
+	* comm: call
+
+2016-09-27  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* plan:
+	when this enricher thing finishes,
+	dry: next goal is big anyway: 10%
+	compare verification tools: main: 45%
+	bamboo: long / high impact: 30%
+
+	* read: http://www.lsv.ens-cachan.fr/Publis/PAPERS/PDF/DKR-csfw06.pdf
+	What is "coercion resistance"
+
+	* oyente: documented how to get it working
+	https://github.com/pirapira/practice/blob/master/compare-tools/getting_oyente_working.md
+	https://github.com/pirapira/practice/blob/master/compare-tools/oyente-on-ens.md
+
+	* go-ethereum: reviewing #3045
+
+	* comm: reviewed an article based on an interview
+
 2016-09-26  Yoichi Hirai  <yoichi@ethereum.org>
 
 	* plan:
