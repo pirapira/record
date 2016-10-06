@@ -1,3 +1,81 @@
+2016-10-06  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* remark:
+	The next step of the evmverif looks like
+	- developing small semi-automations
+	- adding program logic (I have somebody interested in this!)
+	- adding more opcodes
+
+	* ../bamboo/src/codegen/hex.mli (bamboo):
+	spent some time implementing the code generation of bamboo
+
+	* ../solidity/libsolidity/inlineasm/AsmParser.cpp (solidity):
+	spent some time trying pull-requests on solidity
+
+	* evmverif:
+	streamlined proofs.  Before this, the case analysis was made along the
+	if sentences in the specification.  After this, the case analysis is
+	made along the conditional jumps in the EVM bytecode.
+
+2016-10-05  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* evmverif:
+	A youtube video https://www.youtube.com/playlist?list=PL9oaY6Y4QxRZybj86eGItGVApxLXVIXHz
+
+	* plan: I think moving to Isabelle/HOL now is not the greatest choice, so
+	Coq bytecoe verification (evmverif) 40%
+	bamboo: long / high impact: 30%
+	C++ world: 30%
+
+2016-10-04  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* env: bought a headset so that I can shoot a video
+
+	* ../bamboo/src/lib/ethereum.ml (bamboo):
+	trying to compute ABI signatures of cases.
+	Now looking at cryptokit library of OCaml.
+	Some how I checked out
+	svn checkout svn://ssh.ocamlcore.org/svn/cryptokit/trunk
+	Yes I got it somehow working.
+	remembered object#method syntax of OCaml.
+	This ended up in https://github.com/pirapira/bamboo/commit/8329ee6ebfa1c6a1614b9a1c7bfec6d6b286d5a4
+
+	* casper: sent a mail about the casper draft
+
+2016-10-01  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* vmtrace_enricher:
+	some transaction graphing tool.
+	https://github.com/pirapira/vmtrace_enricher
+
+2016-09-29  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* yellowpaper:
+	opened #187
+
+	* dr-y:
+	implemented DELEGATECALL
+	updated the online version
+
+	* evm: DELEGATECALL and CALLCODE, learned the difference
+
+	* bamboo:
+	Touched bamboo compiler a bit.
+
+	* plan: after the enricher thing, the percentage would then be
+	isabelle/hol bytecoe verification 40%
+	bamboo: long / high impact: 30%
+
+	* plan:
+	When I think about it, in the end, trusting solc is still a risk.
+	So I need to change the focus.
+	-- a. Create a youtube video how to do bytecode level verification
+	   because I finished one example, and you don't know how it works.
+	-- b. I'll try the same example in Isabelle/HOL
+	-- c. Solidity to output annotated bytecode and then to
+	   use Oyente // write a proof about that.
+	   -- Easier and more trustworthy.
+
 2016-09-28  Yoichi Hirai  <yoichi@ethereum.org>
 
 	* comm: some discussion on gitter
