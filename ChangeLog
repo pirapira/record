@@ -1,3 +1,13 @@
+2016-10-07  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* solidity: created a quick PR to fix #1177
+
+	* bamboo: implementing hex generation
+
+	* comm: discussion with @axic resulted in https://github.com/ethereum/solidity/issues/1178
+
+	* evmverif: shortened the proof script a bit
+
 2016-10-06  Yoichi Hirai  <yoichi@ethereum.org>
 
 	* remark:
