@@ -1,3 +1,20 @@
+2016-10-12  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* env: set up pgp key on github
+
+	* ../eth-isabelle/ContractSem.thy:
+	Implementing more and more opcodes.
+	Isabelle/HOL's word library makes this comfortable.
+
+	* env: ordered an armrest
+	Ergonomics is important
+
+2016-10-11  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* ../eth-isabelle (eth-isabelle):
+	Now the semantics is aware that Eth balances can suddenly increase.
+	Also, annotations in the bytecode is supported.  Statements on the current state can be verified.
+
 2016-10-10  Yoichi Hirai  <yoichi@ethereum.org>
 
 	* ../eth-isabelle/ContractSem.thy: Now the proofs in Isabelle/HOL is much shorter
