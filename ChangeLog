@@ -1,4 +1,47 @@
+2016-10-18  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* ../eth-isabelle/example/Deed.thy:
+	The simplifier spends 15 minutes for 9 instructions.  This needs to be optimized.
+
+	* ../eth-isabelle/parser/hexparser.rb:
+	Wrote a parser in ruby, whose inputs are hex codes and the outputs are in Isabelle/HOL
+
+	* ../solidity/libsolidity/ast/AST.cpp:
+	While Isabelle/HOL is simplifying terms, I have time for Solidity bugs
+
+2016-10-17  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* ../eth-isabelle/Parse.thy:
+	Found that the bytecode parser in Isabelle/HOL is very slow.
+	Maybe I'll rewrite once more and see if it's still slow.
+	It seems like the accumulator technique is actually harmful.
+
+2016-10-15  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* ../eth-isabelle/ContractSem.thy:
+	Learnt apply(simp split: if_splits)
+
+2016-10-14  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* ../eth-isabelle/RelationalSem.thy:
+	Developed a hybrid of the deterministic function and some nondeterministic steps representing the world's choices.
+
+2016-10-13  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* solidity:
+	Tried to read some of the recent pull-requests.  Created more issues.
+
+	* ../eth-isabelle/RelationalSem.thy (step):
+	I was trying to create a relational semantics, but found it painful to use.
+	Maybe I'm going to define things as functions as long as the things are deterministic.
+
+	* ../eth-isabelle/example/FailOnReentrance.thy:
+	Finished all opcodes except GAS, and trying some more small programs.
+
 2016-10-12  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* ../yellowpaper/Paper.tex (section{Fee Schedule}\label{app:fees}):
+	submitted a PR about EIP150 on the yellow paper
 
 	* env: set up pgp key on github
 
