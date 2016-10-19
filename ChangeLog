@@ -1,3 +1,12 @@
+2016-10-19  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* Isabelle/HOL simplifier debugger
+	https://speakerdeck.com/larsrh/interactive-simplifier-tracing-and-debugging-in-isabelle
+	https://www21.in.tum.de/~hupel/pub/simp-trace.pdf
+	using [[simp_trace_new mode = full]]
+
+	The simplifier is very clever, when the right hand side looks heavier it does not consider using the equation, even when it's in the simplification database
+
 2016-10-18  Yoichi Hirai  <yoichi@ethereum.org>
 
 	* ../eth-isabelle/example/Deed.thy:
