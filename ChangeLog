@@ -1,3 +1,64 @@
+2016-10-28  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* eth-isabelle:
+	realized that CALLCODE and DELEGATECALL does not follow the established invariants about the account's code.
+	Somehow released the results about the Deed contract.
+
+2016-10-27  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* eth-isabelle:
+	Somehow finished the proofs around Deed contract again.
+
+2016-10-26  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* ../eth-isabelle/ContractSem.thy: I found a bug in JUMPI
+	the return data was not written to the memory.
+	I'm glad I found these before I say I verified a contract.
+
+2016-10-25  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* https://www.cs.princeton.edu/~appel/papers/controllogic.pdf
+	Maybe this is useful.
+	We have jumps to locations specified in the stack.
+	This might be a problem.
+	Maybe we propagate conditions somehow.
+	Jump-destinations paired with conditions that are known to be safe.
+
+2016-10-24  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* eth-isabelle:
+	Now the Deed analysis is ready to go out.  It proves a strong enough statement.
+	So the rest is PDF clanup.
+
+	* ../solidity/Changelog.md (Bugfixes): Working on two pull-requests
+	#1274 and #1264
+
+2016-10-23  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* ../eth-isabelle/document/root.tex (section{Introduction}):
+	Finished proving some properties about the Deed contract.
+	Now I'm working on a nice document about this.
+
+2016-10-21  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* ../solidity/libsolidity/codegen/ExpressionCompiler.cpp (dev):
+	I think I solved #1116.  PR 1263 created.
+
+2016-10-20  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* ../solidity/libsolidity/codegen/ExpressionCompiler.cpp (dev):
+	Started dealing with issue 1116.  The problem seems to be that the library is visited.
+
+	* Isabelle/HOL
+	Reading a list into an AVL tree takes about 10 mins.
+	Maybe that's fine for now.
+	For the future we need more optimizations.
+
+	Learnt to search theorems by "name: if_splits"
+
+	* ../solidity/libsolidity/parsing/Parser.cpp (dev):
+	just read ASTNodeFactory
+
 2016-10-19  Yoichi Hirai  <yoichi@ethereum.org>
 
 	* Isabelle/HOL simplifier debugger
