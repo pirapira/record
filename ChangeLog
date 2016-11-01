@@ -1,3 +1,13 @@
+2016-10-31  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* eth-isabelle:
+	preparing the talk on the meetup tomorrow.
+
+	* solidity:
+	Overload conflicts, wondering about several things.
+	`A is B,C` is the ordering of B,C relevant or not?
+	should functions in B and C with the same name conflict?
+
 2016-10-28  Yoichi Hirai  <yoichi@ethereum.org>
 
 	* eth-isabelle:
