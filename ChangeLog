@@ -1,3 +1,66 @@
+2016-11-09  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* bamboo: slowly pushing things forward
+	Now generating layout info from the information available at that stage.
+	Currently figuring out what information is available.
+
+	* eth-isabelle: copying comments into Lem files
+
+	* ../solidity/libsolidity/parsing/Parser.cpp (dev): enum conversion overflows.  #1334
+
+2016-11-08  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* eth-isabelle:
+	added Lem files and prepared some Makefile goals
+
+	* ../solidity/libsolidity/codegen/ContractCompiler.h (dev): figured out where the internal function tags are pushed
+
+	* solidity: just realized that the runtime code generation has to consider the internal functions that were referenced in the constructor.
+
+2016-11-07  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* ../solidity/libsolidity/codegen/CompilerContext.cpp (dev):
+	eth::AssemblyItem CompilerContext::FunctionCompilationQueue::entryLabel()
+	is the function that can lookup/create a tag for an internal function
+
+	* eth-isabelle:
+	Moving slowly to incorporate the Lem code.
+
+	* ../solidity/libsolidity/codegen/ContractCompiler.cpp (solidity):
+	I was mainly reading the solidity code down to CompilerContext.h and the dependent header files.
+
+2016-11-04  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* ../solidity/test/libsolidity/SolidityEndToEndTest.cpp (dev):
+	Adding more test cases around functions.
+
+	* dump:
+	dumped all code on the mainnet.  What shall I try with it?
+
+2016-11-03  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* ../../contracts/0xd2e1: some contract hunting on the blockchain
+
+	* ../solidity/solc/CommandLineInterface.cpp (dev): gdb
+	catch throw
+
+2016-11-02  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* solidity: how to generate random Solidity programs?
+	Csmith
+	What papers cite csmith?
+	I guess I have to write something on my own.
+
+	* env: trying 'planner' app
+	scheduled the near future of the eth-isabelle project
+
+	* hol-testgen: https://www.brucker.ch/bibliography/download/2016/brucker.ea-hol-testgen-2016.pdf
+	Maybe I can use this to produce test cases for on-chain contracts,
+	or I can produce random solidity programs.
+
+	* eth-isabelle:
+	tried sledgehammer [prover="remote_waldmeister"] on some final goals, but this didn't succeed
+
 2016-11-01  Yoichi Hirai  <yoichi@ethereum.org>
 
 	* solidity: still on #1292
@@ -12,7 +75,7 @@
 
 	* solidity:
 	Overload conflicts, wondering about several things.
-	`A is B,C` is the ordering of B,C relevant or not?
+	`A is B,C` is the ordering of B,C relevant or not? (turns out yes, as documented)
 	should functions in B and C with the same name conflict?
 
 2016-10-28  Yoichi Hirai  <yoichi@ethereum.org>
