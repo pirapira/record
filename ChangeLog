@@ -1,3 +1,24 @@
+2016-11-12  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* bamboo: got the first bytecode output.
+	I need to test this.
+	I realized that I need a counter for dynamically generating mappings.
+
+2016-11-11  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* bamboo: slowly pushing forward
+	I believe it will get only easier from here.
+
+	* evm: a paper about optimization http://set.ee/publications/bytecode07.pdf
+	maybe useful within a basic block
+
+	* solidity: added some tests for first class contracts
+
+2016-11-10  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* ../solidity/libsolidity/parsing/Parser.cpp (dev):
+	after M-., M-, goes back to the place before the search
+
 2016-11-09  Yoichi Hirai  <yoichi@ethereum.org>
 
 	* bamboo: slowly pushing things forward
@@ -7,6 +28,7 @@
 	* eth-isabelle: copying comments into Lem files
 
 	* ../solidity/libsolidity/parsing/Parser.cpp (dev): enum conversion overflows.  #1334
+	Also #1292, #1293.
 
 2016-11-08  Yoichi Hirai  <yoichi@ethereum.org>
 
