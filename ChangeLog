@@ -1,3 +1,28 @@
+2016-11-16  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* eth-isabelle:
+	mostly integrating Lem files
+	I had to replace many `abbreviation`s in the original Isabelle/HOL source with `declare ... [simp]`s.
+
+2016-11-15  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* swarm: how does the incentive work?
+
+	* eip: 155, 158, 160, 170
+
+	* read: https://github.com/rmerom/PutYourMoneyWhereYourContractIs
+	It seems like this framework can support attacks that involve reentrancy etc.
+	Bounty vs. formal verification.  Maybe bounty hunting using formal verification?
+
+2016-11-14  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* bamboo: the empty contract works somehow.
+	I think this should be automatically tested.
+	I should prioritize trying out these testing frameworks out there.
+
+	* solidity: #1334 not being sure I'm going to the right direction.
+	Somehow picked #1344.  Enum cleanup.
+
 2016-11-12  Yoichi Hirai  <yoichi@ethereum.org>
 
 	* bamboo: got the first bytecode output.
