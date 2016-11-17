@@ -1,8 +1,21 @@
+2016-11-17  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* ../eth-isabelle/lem/evm.lem:
+	In some places the Lem definition interpreted 256-bit words as signed integers.
+	And some old bugs in the definitions were still there.
+	The symptom was that the proofs finished too early.
+
+	* eth-isabelle:
+	checking warning contents.
+
 2016-11-16  Yoichi Hirai  <yoichi@ethereum.org>
 
 	* eth-isabelle:
 	mostly integrating Lem files
 	I had to replace many `abbreviation`s in the original Isabelle/HOL source with `declare ... [simp]`s.
+
+	* comm:
+	several people contacted me with research projects.
 
 2016-11-15  Yoichi Hirai  <yoichi@ethereum.org>
 
