@@ -1,3 +1,25 @@
+2016-11-21  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* ../solidity/test/libsolidity/SolidityNameAndTypeResolution.cpp:
+	spent some more time on #1392
+	learned Boost exceptions the hard way
+
+	* env:
+	I've set up flycheck working.  productivity++.
+
+	* ../solidity/libsolidity/codegen/CompilerUtils.cpp (dev):
+	worked whole day on #1381
+
+2016-11-20  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* eth-isabelle:
+	somehow finished the porting to Lem.
+
+2016-11-18  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* eth-isabelle:
+	spent almost the whole day on porting the definitions to Lem and then fixing the proofs on the ported definitions.
+
 2016-11-17  Yoichi Hirai  <yoichi@ethereum.org>
 
 	* ../eth-isabelle/lem/evm.lem:
