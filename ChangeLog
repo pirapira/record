@@ -1,3 +1,51 @@
+2016-11-28  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* env: I took two days off and moved from Dresden to Berlin
+
+2016-11-25  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* swirlds:
+	if we replace the number of nodes with the amount of funds, what would happen?
+
+2016-11-23  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* solidity
+	Changing the way checks are written in the tests.
+
+	* eth-isabelle
+	The stack depth check increased the number of cases.
+	Somehow I can cope with it?
+	Still trying to fix Deed.
+
+2016-11-22  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* ../eth-isabelle/lem/evm.lem:
+	The stack depth should be checked before the execution of the instruction.
+	This means I need a table of stack element consumption and production.
+
+	* evm-verif:
+	added `make doc`
+
+	* comm: introduced to two different smart contract languages.
+
+	* evm-verif: what kind of formally verified contract shall I deploy and put a bounty?
+	Some theorem about the bit sequence?
+	no, no owner can withdraw everything.
+	The daily-user can withdraw 5% per day.
+	The owner can change the daily-user.
+	I think I should not publish the Solidity code for this, because people assume that the Solidity code is verified to be correct, which will not be the case.
+	The time line for this is before my demo day.
+
+	* solidity: #527 shifts
+
+	* env: setting up irony-mode
+	company-irony
+	irony-eldoc
+
+	* read: http://research.microsoft.com/en-us/um/people/nick/coqasm.pdf
+	ifthenelse and while are macros
+	created #68 and #69 in eth-isabelle repository.
+
 2016-11-21  Yoichi Hirai  <yoichi@ethereum.org>
 
 	* ../solidity/test/libsolidity/SolidityNameAndTypeResolution.cpp:
