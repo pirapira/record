@@ -1,3 +1,89 @@
+2016-12-18  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* eth-isabell: wrote a hex code parser in OCaml, for parsing vmTesting
+
+2016-12-16  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* ../eth-isabelle/tester/evmTest.ml (big_int_of_word160):
+	now converting numbers to the format used in the EVM model
+
+	* ../eth-isabelle/tester/jsonTest.ml (parse_env):
+	mostly finished parsing vm test formats
+
+2016-12-15  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* ../eth-isabelle/lem/word8.ml: extracted OCaml code from the Lem code
+	Now thinking how to bridge json test cases to this world.
+	I guess bypassing Big_int is the way to go.
+	Another thing to consider is how to see this file.
+	Maybe an OCaml_project file at the top?
+	(_tags file did it for ocamlbuild)
+	Fixed some Lem notations so that the OCaml translation compiles.
+
+2016-12-14  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* https://realworldocaml.org/v1/en/html/handling-json-data.html:
+	This is cool:
+	(* Locally open the JSON manipulation functions *)
+	let open Yojson.Basic.Util in
+
+
+2016-12-12  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* solidity: rebased #1474
+
+	* eth-isabelle: 4-days delay from the plan.  feeling the pinch.
+	Last week I spent only 3 hours on this.  Maybe that's why.
+
+2016-12-10  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* eth-isabelle:
+	added gas checking, now the proof checking takes overnight
+	the gas decrement is not there yet.
+
+2016-12-09  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* assembly:
+	I was reviewing Chriseth's proposal.  I started writing my own
+	https://docs.google.com/a/ethereum.org/document/d/1a31R9uFnQffFr4zHPf-kQk8EzXv5uXtuX01_awGiE44/edit?usp=sharing
+
+	* ../yellowpaper/Paper.tex: created a PR about the Spurious Dragon changes
+
+2016-12-05  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* solidity: trying to debug the Mac test failure
+
+	* ../yellowpaper/Paper.tex: specifying Spurious Dragon in the yellow paper
+
+	* eth-isabelle:
+	I chose not to model the sets of instructions Wzero, Wbase, Wverylow, Wlow, Wmid, Whigh, Wextcode in the yellow paper
+
+2016-12-02  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* solidity: most derived contract matters even when evaluating the function calls in the base contracts.
+
+	* ../eth-isabelle2/lem/evm.lem: defined Csuicide and some other aux functions for gas
+
+2016-12-01  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* eth-isabelle: make works
+
+	* ../solidity/test/libsolidity/SolidityNameAndTypeResolution.cpp (dev):
+	I'm trying to work on
+	for the test cyclic_inheritance, shall I
+	1) exit after the first fatal error, or
+	2) inhibit one of the errors?
+
+	* clang-analyzer:
+	trying clang-analyzer on solidity
+	in solidity and in cpp-ethereum, exposed some issues
+
+2016-11-30  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* solidity: mainly modifying my own pull-requests
+
+	* cpp-ethereum: one test crashes as reported by @chfast
+
 2016-11-28  Yoichi Hirai  <yoichi@ethereum.org>
 
 	* env: I took two days off and moved from Dresden to Berlin
