@@ -1,3 +1,27 @@
+2017-01-02  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* ../../howm/2017/01/2017-01-02-100225.txt:
+	Over the Christmas season, I was testing the formal model of EVM against the VM test suite.
+	All instructions are complete.
+
+2016-12-23  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* ../eth-isabelle/tester/jsonparser.ml (construct_block_info):
+	has been running VM tests on the EVM definition in Lem
+
+2016-12-21  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* ../eth-isabelle/lem/evm.lem: running VMTests on the EVM defined in Lem
+	finding some errors
+
+2016-12-19  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* ../ethereum-formal-verification-overfiew/README.md: updated.
+
+	* eth-isabelle:
+	still writing paper
+	somehow executed EVM translated from Lem
+
 2016-12-18  Yoichi Hirai  <yoichi@ethereum.org>
 
 	* eth-isabell: wrote a hex code parser in OCaml, for parsing vmTesting
