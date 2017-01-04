@@ -1,8 +1,33 @@
+2017-01-04  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* solidity: rebaing my own PR, etc
+
+	* eth-isabelle added LOG instructions
+	Thinking how to release the first version.
+
+2017-01-03  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* yellowpaper:
+	how does the yellow paper describe the log?
+	t is the list of topics
+	So (address * word list * byte list) should be it?
+	Yes, the vm test looks like that.
+
 2017-01-02  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* ../../howm/2017/01/2017-01-02-100225.txt: The spec of wasm is here in OCaml
+	https://github.com/WebAssembly/spec/tree/master/interpreter
+	I should start turning this into Lem
+
+	* read: https://medium.com/@VitalikButerin/a-proof-of-stake-design-philosophy-506585978d51#.7szispkiw
+	I like this post for the cyberpunk reference.
 
 	* ../../howm/2017/01/2017-01-02-100225.txt:
 	Over the Christmas season, I was testing the formal model of EVM against the VM test suite.
 	All instructions are complete.
+
+	* ewasm: it seems like Hera uses an existing engine for WASM.
+	So might be a better idea to formalize WASM as it is.
 
 2016-12-23  Yoichi Hirai  <yoichi@ethereum.org>
 
