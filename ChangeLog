@@ -1,9 +1,19 @@
 2017-01-04  Yoichi Hirai  <yoichi@ethereum.org>
 
+	* read: Concrete Semantics section 12.4  Verification Condition Generation
+	I think the EVM work needs to get there somehow.
+
+	* solidity: reading #1330
+
+	* solidity: #1247, I will update the table without adding version selection
+	There is a file called GasEstimator.h
+	GasMeter.h has the constants.
+
 	* solidity: rebaing my own PR, etc
 
 	* eth-isabelle added LOG instructions
 	Thinking how to release the first version.
+	Tagged a revision and tested it.
 
 2017-01-03  Yoichi Hirai  <yoichi@ethereum.org>
 
