@@ -1,3 +1,14 @@
+2017-01-06  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* eth-isabelle ran VM tests with coverage recording
+	and preparing a paper
+
+	* ../../howm/2017/01/2017-01-05-153938.txt (https): preparing for talks
+
+2017-01-05  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* ../solidity/libevmasm/AssemblyItem.h (dev): reviewed #1330
+
 2017-01-04  Yoichi Hirai  <yoichi@ethereum.org>
 
 	* read: Concrete Semantics section 12.4  Verification Condition Generation
