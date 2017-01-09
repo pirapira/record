@@ -1,3 +1,8 @@
+2017-01-09  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* eth-isabell: Now building Hoare logic, following Magnus Myreen's thesis.
+	I had to change some of the formalism, but hopefully not too serious.
+
 2017-01-06  Yoichi Hirai  <yoichi@ethereum.org>
 
 	* eth-isabelle ran VM tests with coverage recording
