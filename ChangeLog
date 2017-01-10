@@ -1,7 +1,22 @@
+2017-01-10  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* ../eth-isabelle/lem/evm.lem:
+	In Lem, SUICIDE (self) looks like the balance becomes zero.
+
+	* ../cpp-ethereum/libethereum/ExtVM.cpp (suicide):
+	In C++, SUICIDE (self) looks like the balance becomes zero
+
+	* ../../howm/2017/01/2017-01-10-122201.txt: started discussion with chriseth about templates.
+	I insist having the smallest bite possible
+
 2017-01-09  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* eth-isabelle:
+	What does the yellow paper say about SUICIDE and send fund to itself?
 
 	* eth-isabell: Now building Hoare logic, following Magnus Myreen's thesis.
 	I had to change some of the formalism, but hopefully not too serious.
+	Somehow finished proving the triple validity for ADD and the composition rule.
 
 2017-01-06  Yoichi Hirai  <yoichi@ethereum.org>
 
