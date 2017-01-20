@@ -1,3 +1,60 @@
+2017-01-19  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* solidity: not yet succeeded in changing the gas schedule
+
+	* eth-isabelle: specified JUMPDEST as a Hoare triple
+	specifying JUMPDEST was a bit harder than others.
+	Maybe because so many things don't change.
+
+	* ../holzero-0.6.3/src/type.ml (Type):
+	maybe we do not need DLTree in EVM (if we can use the storage)
+
+	* proofmarket: HOL Light and HOL Zero, compare the size of the proof checker.
+	Somehow HOL Zero is more well-documented.
+
+2017-01-18  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* comm: listed missing texts and pictures for the japan talk.
+
+	* eth-isabelle: specified CALLER and BALANCE
+	Current proofs are fragile.
+	For proving "rest a ==> rest b", I state a
+	lemma "a = b", but "a" and "b" change frequently.
+	Maybe I should try to hide these "a" and "b" from
+	the proof script.
+
+2017-01-17  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* solidity: reflecting gas price changes
+
+	* eth-isabelle: wrote a blog post
+
+2017-01-16  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* presentations:
+	I think I stick with Keynote on Mac.
+	Maybe I should create a repository somewhere.
+
+	* eth-isabelle:
+	Trying to use the Hoare logic.
+	The rules are presented sometimes inconveniently for backward proofs.
+
+2017-01-13  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* eth-isabelle:
+	removing invalid SWAP instruction
+
+2017-01-12  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* yellowpaper: performed some cleanup on issues
+
+	* comm: had a call
+
+	* eth-isabelle: introduced Travis
+	enabled HOL extraction
+	found an issue with test performance, submitted a fix
+	Streamlined the ADD triple
+
 2017-01-10  Yoichi Hirai  <yoichi@ethereum.org>
 
 	* ../eth-isabelle/lem/evm.lem:
