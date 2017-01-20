@@ -1,3 +1,12 @@
+2017-01-20  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* eth-isabelle:
+	Specifying JUMP and JUMPI
+	Also trying some Travis optimizations
+
+	* ../cpp-ethereum/libethcore/SealEngine.cpp:
+	The gas-table update in Solidity requires some change in cpp-ethereum
+
 2017-01-19  Yoichi Hirai  <yoichi@ethereum.org>
 
 	* solidity: not yet succeeded in changing the gas schedule
