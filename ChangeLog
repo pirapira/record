@@ -1,3 +1,13 @@
+2017-02-12  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* comm:
+	went to the Tokyo Hackathon
+
+	* eth-isabelle:
+	have been specifying instructions as Hoare triples,
+	verified a simple wallet
+	about to test it.
+
 2017-01-20  Yoichi Hirai  <yoichi@ethereum.org>
 
 	* eth-isabelle:
