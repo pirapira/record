@@ -1,3 +1,16 @@
+2017-02-13  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* eth-isabelle:
+	testing the proven simple wallet
+	out-of-gas happened.
+	so fixed the program.
+	Now I'm aware how to deal with commutative monoid of **.
+	however, when I introduce that, I have lots of broken proofs.
+	So I keep it as a WIP pull request.
+
+	* yellowpaper:
+	rebased one of my PRs.  asked the next steps.
+
 2017-02-12  Yoichi Hirai  <yoichi@ethereum.org>
 
 	* comm:
