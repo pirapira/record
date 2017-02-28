@@ -16,9 +16,42 @@
 
 	* pos: using Isabelle/HOL and Alloy to investigate the Minimal Tindermint protocol
 
-2017-01-22  Yoichi Hirai  <yoichi@ethereum.org>
+2017-02-17  Yoichi Hirai  <yoichi@ethereum.org>
 
-	* eth-isabelle: specifying more and more instructions as Hoare triples
+	* comm:
+	gave a talk at a conference in Paris
+	https://yoichihirai.com/edcon-yoichi-hirai.pdf
+
+2017-02-14  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* EIPs:
+	reviewed some EIPs
+
+	* Solidity:
+	reviewed one PR
+
+2017-02-13  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* eth-isabelle:
+	testing the proven simple wallet
+	out-of-gas happened.
+	so fixed the program.
+	Now I'm aware how to deal with commutative monoid of **.
+	however, when I introduce that, I have lots of broken proofs.
+	So I keep it as a WIP pull request.
+
+	* yellowpaper:
+	rebased one of my PRs.  asked the next steps.
+
+2017-02-12  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* comm:
+	went to the Tokyo Hackathon
+
+	* eth-isabelle:
+	have been specifying instructions as Hoare triples,
+	verified a simple wallet
+	about to test it.
 
 2017-01-20  Yoichi Hirai  <yoichi@ethereum.org>
 
@@ -85,6 +118,8 @@
 	enabled HOL extraction
 	found an issue with test performance, submitted a fix
 	Streamlined the ADD triple
+
+	* eth-isabelle: specifying more and more instructions as Hoare triples
 
 2017-01-10  Yoichi Hirai  <yoichi@ethereum.org>
 
