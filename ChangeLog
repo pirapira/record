@@ -1,3 +1,25 @@
+2017-02-27  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* pos: joined casper call
+	refactoring proofs
+
+	* solidity: discussion with chriseth about an intermediate language
+
+2017-02-26  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* comm, pos: wrote a blog post
+	
+
+2017-02-22  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* yellowpaper: filing some PRs for Metropolis
+
+	* pos: using Isabelle/HOL and Alloy to investigate the Minimal Tindermint protocol
+
+2017-01-22  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* eth-isabelle: specifying more and more instructions as Hoare triples
+
 2017-01-20  Yoichi Hirai  <yoichi@ethereum.org>
 
 	* eth-isabelle:
