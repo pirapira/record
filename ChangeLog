@@ -1,3 +1,9 @@
+2017-03-01  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* ../yellowpaper/Paper.tex: EIP86 in yellow paper
+
+	* pos: started formalizing another PoS
+
 2017-02-28  Yoichi Hirai  <yoichi@ethereum.org>
 
 	* ../yellowpaper/Paper.tex: preparing eip86 changes
