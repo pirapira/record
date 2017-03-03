@@ -1,3 +1,11 @@
+2017-03-02  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* eth-isabelle: Finished fixing the Deed proof for the WTSC conference
+
+	* yellowpaper: opened two PRs about Metropolis
+
+	* pos: https://github.com/pirapira/cbc_casper with Vlad Zamir
+
 2017-03-01  Yoichi Hirai  <yoichi@ethereum.org>
 
 	* ../yellowpaper/Paper.tex: EIP86 in yellow paper
