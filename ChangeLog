@@ -1,3 +1,9 @@
+2017-03-07  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* yellowpaper: filed two PRs about Metropolis
+
+	* pos: fixed a definition in the cbc-casper
+
 2017-03-02  Yoichi Hirai  <yoichi@ethereum.org>
 
 	* eth-isabelle: Finished fixing the Deed proof for the WTSC conference
