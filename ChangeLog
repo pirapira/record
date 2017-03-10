@@ -1,3 +1,9 @@
+2017-03-09  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* pos: wrote a blog about Vlad's Casper
+
+	* pos: started the dynamic validator setting
+
 2017-03-08  Yoichi Hirai  <yoichi@ethereum.org>
 
 	* pos: finished the consensus safety proof
