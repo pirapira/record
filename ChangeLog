@@ -1,3 +1,9 @@
+2017-03-10  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* pos: trying to model the dynamic validator sets in Isabelle
+
+	* eth-isabelle: ISZERO specified as Hoare triple
+
 2017-03-09  Yoichi Hirai  <yoichi@ethereum.org>
 
 	* pos: wrote a blog about Vlad's Casper
