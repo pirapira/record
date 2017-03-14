@@ -1,3 +1,9 @@
+2017-03-13  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* comm: guests
+
+	* pos: defined the number of validator set changes
+
 2017-03-10  Yoichi Hirai  <yoichi@ethereum.org>
 
 	* pos: trying to model the dynamic validator sets in Isabelle
