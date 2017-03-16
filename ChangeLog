@@ -1,3 +1,9 @@
+2017-03-16  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* pos: reduced the dynamic validator setting into
+	a smaller situation where only one validator set is
+	relevant.
+
 2017-03-15  Yoichi Hirai  <yoichi@ethereum.org>
 
 	* pos: first attempt to formalize dynamic validators
