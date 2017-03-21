@@ -1,3 +1,10 @@
+2017-03-20  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* pos: fixed the dynamic validators proof
+
+	* eth-isabelle: merged two pull-requests
+	fixed a problem in vm test
+
 2017-03-17  Yoichi Hirai  <yoichi@ethereum.org>
 
 	* ../pos/document/root.tex: verifying dynamic validator set
