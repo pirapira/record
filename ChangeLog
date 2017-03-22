@@ -1,3 +1,12 @@
+2017-03-21  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* ../yellowpaper/Paper.tex:
+	https://github.com/ethereum/yellowpaper/pull/263
+
+	* pos: removed 'smt' methods that might and might not work on other machines
+
+	* pos: reorder definitions and lemmata in the dynamic validators proof
+
 2017-03-20  Yoichi Hirai  <yoichi@ethereum.org>
 
 	* pos: fixed the dynamic validators proof
