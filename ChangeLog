@@ -1,3 +1,9 @@
+2017-03-23  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* solidity: reviewing #1711.  would take months to understand this one.  Asking if I should continue.
+
+	* ../yellowpaper/Paper.tex: more Metropolis changes
+
 2017-03-22  Yoichi Hirai  <yoichi@ethereum.org>
 
 	* eth-isabelle: hearing that state tests run.  very curious.
