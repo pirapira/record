@@ -1,5 +1,14 @@
 2017-03-23  Yoichi Hirai  <yoichi@ethereum.org>
 
+	* klee: trying Klee on evm
+	somehow built klee
+
+	* ../yellowpaper/Paper.tex: https://github.com/ethereum/yellowpaper/pull/270
+	changed fonts
+
+	* klee: https://docs.docker.com/engine/installation/linux/ubuntu/#install-using-the-repository
+	$ sudo docker run hello-world
+
 	* solidity: reviewing #1711.  would take months to understand this one.  Asking if I should continue.
 
 	* ../yellowpaper/Paper.tex: more Metropolis changes
