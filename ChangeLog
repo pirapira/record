@@ -1,3 +1,13 @@
+2017-03-24  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* klee: found that ethevm does run cleanly on develop
+
+	* solidity: reviewing #1711: found that control flow is not accounted in the assembly analyzer
+	don't come up with a good justification.
+
+	* malta: created slide titles somehow
+	maybe needs some reshuffling, so first fill them in with tentative bullet points.
+
 2017-03-23  Yoichi Hirai  <yoichi@ethereum.org>
 
 	* klee: trying Klee on evm
