@@ -1,3 +1,13 @@
+2017-03-27  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* yellow paper: opened a PR again about the account abstraction changes
+
+	* solidity: #1711, to desguaring process
+
+	* malta: filled in many slides with bullet points
+
+	* eth-isabelle: specified two instructions
+
 2017-03-24  Yoichi Hirai  <yoichi@ethereum.org>
 
 	* klee: found that ethevm does run cleanly on develop
