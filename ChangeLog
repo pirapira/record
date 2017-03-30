@@ -1,3 +1,20 @@
+2017-03-29  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* malta: reading abstracts and choosing which one is interesting
+
+	* eth-isabelle: fixed Travis about the state test
+
+	* yellow paper: opened PR for EIP 140
+
+2017-03-28  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* malta: creating malta slides
+
+	* yellowpaper: creating metropolis PRs
+
+	* eth-isabelle: specified LOGx as Hoare triples
+	doing some house cleaning
+
 2017-03-27  Yoichi Hirai  <yoichi@ethereum.org>
 
 	* yellow paper: opened a PR again about the account abstraction changes
