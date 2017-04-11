@@ -1,3 +1,14 @@
+2017-04-11  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* ../eth-isabelle/script/gen_coq.sh: created a script for generating coq tar ball
+
+	* ../paper-formal-bytecode/main.tex: uploaded my paper I presented in malta
+
+	* yellow paper: rephrased 161.c without the special \rho function
+	also created a PR for eip 170
+
+	* comm: preparing bitcoin wednessday talk
+
 2017-04-10  Yoichi Hirai  <yoichi@ethereum.org>
 
 	* comm: commented on paper draft sent from people I got to know in Malta.
