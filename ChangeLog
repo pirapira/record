@@ -1,4 +1,13 @@
+2017-04-10  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* comm: commented on paper draft sent from people I got to know in Malta.
+
+	* comm: wrote a blog post about Malta conference
+	https://medium.com/@pirapira/fc-2017-report-is-there-mechanism-designer-aboard-b3160c7ff826
+
 2017-03-31  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* ../paper-formal-bytecode/talk/malta2017.tex (Ongoing): slides
 
 	* ../yellowpaper/Paper.tex: fixed yellow paper PR 270
 
