@@ -1,3 +1,11 @@
+2017-04-12  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* metropolis: trying to list corner cases of Metropolis changes
+
+	* solidity: reviewed 2117
+
+	* comm: submitted the title and the summary of my talk in Amsterdam
+
 2017-04-11  Yoichi Hirai  <yoichi@ethereum.org>
 
 	* ../eth-isabelle/script/gen_coq.sh: created a script for generating coq tar ball
