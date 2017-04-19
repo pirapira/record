@@ -1,3 +1,23 @@
+2017-04-18  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* yellowpaper: better description of blockhash instruction
+
+	* cpp-ethereum: gasLimit representation.... do we need to change tests for refactoring.
+
+	* metropolis: eip86, found some discrepancy between cpp-ethereum and parity
+
+	* solidity: Julia discussion about some syntax
+
+	* ../eth-isabelle/lem/evm.lem: fixing a stack overflow
+
+2017-04-13  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* metropolis: started reading up client changes
+
+	* eWASM: reading a bit about wasm and ewasm
+
+	* ../yellowpaper/Paper.tex: described the zkSNARK related precompiled contracts.  This took me 5 hours.
+
 2017-04-12  Yoichi Hirai  <yoichi@ethereum.org>
 
 	* metropolis: trying to list corner cases of Metropolis changes
