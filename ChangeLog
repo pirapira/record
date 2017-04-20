@@ -1,3 +1,16 @@
+2017-04-19  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* solidity: reviewed some PRs.
+
+	* metropolis: pointing out differences about eip86.
+
+	* casper: viper did not work on python2.7
+	util.py had a type error
+	python 3.5 also has a problem.  Maybe the easiest way is to upgrade ubuntu versions.
+
+	* ../eth-isabelle/tester/stateTestLib.ml (run_test): fixed the stack overflow problem.
+	Found the next problem.
+
 2017-04-18  Yoichi Hirai  <yoichi@ethereum.org>
 
 	* yellowpaper: better description of blockhash instruction
