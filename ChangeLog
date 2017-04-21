@@ -1,3 +1,19 @@
+2017-04-20  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* casper: submitted issues #7, #8 and a PR #6
+	problem in bitmask operations, setting some bits cleared others
+	two kinds of division by zero
+
+	* eth-isabelle: debug a nonce difference
+	debug 1/64th in CREATE
+	started using Trusty in Eth-isabelle
+	found issue #397, balance is somehow different
+
+	* yellowpaper: Does it specify the number of elements in the transaction RLP?
+	gas usage of CALL was wrong
+	after CREATE, 1/64th was not added back again
+	the sum of used gas did not consider refunds, though many clients did
+
 2017-04-19  Yoichi Hirai  <yoichi@ethereum.org>
 
 	* solidity: reviewed some PRs.
