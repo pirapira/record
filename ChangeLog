@@ -1,3 +1,14 @@
+2017-04-21  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* casper: https://medium.com/@VitalikButerin/parametrizing-casper-the-decentralization-finality-time-overhead-tradeoff-3f2011672735
+
+	* travis: trying out https://github.com/travis-ci/travis.rb
+
+	* solidity: rebasing #1091
+	reviewed some, including the Julia grammar
+
+	* metropolis: proposed some points for the allcoredev meeting
+
 2017-04-20  Yoichi Hirai  <yoichi@ethereum.org>
 
 	* casper: submitted issues #7, #8 and a PR #6
