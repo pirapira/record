@@ -1,3 +1,19 @@
+2017-04-24  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* evm: started adding the network argument to the EVM definitions
+
+	* yellowpaper: #282
+	I was not aware that the ECDSARECOVER is also changed.
+
+	* ../yellowpaper/Paper.tex: updated EIP86 so that CREATE instruction keeps the original address computation
+
+	* casper: https://github.com/ethereum/research/wiki/A-note-on-data-availability-and-erasure-coding
+	I haven't understood why erasure code helps.  What would it look like without erasure code?
+
+	* yellowpaper: change the PR about bigint arithmetics, to reflect recent address scheme change
+
+	* comm: talk in amsterdam checking my profile.
+
 2017-04-21  Yoichi Hirai  <yoichi@ethereum.org>
 
 	* casper: https://medium.com/@VitalikButerin/parametrizing-casper-the-decentralization-finality-time-overhead-tradeoff-3f2011672735
