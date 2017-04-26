@@ -1,3 +1,20 @@
+2017-04-25  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* eth-isabelle: added protocol version as an argument to many functions
+
+	* yellowpaper: updated frontier branch of Yellow Paper and filed a pull-request
+	fixed PR 282 about the value passed on to ECDSARECOVER function
+
+	* casper: understood what Reed-Solomon coding is
+	got some idea how erasure coding might be useful
+
+	* metropolis: reviewed the difficulty change in go-ethereum, and made a comment
+	https://github.com/ethereum/go-ethereum/pull/14337#discussion_r113196138
+	discussion on eip 214
+	reviewed REVERT in cpp-ethereum
+
+	* ../eth-isabelle/lem/evm.lem: using network not the blocknumber to change protocol rules.
+
 2017-04-24  Yoichi Hirai  <yoichi@ethereum.org>
 
 	* evm: started adding the network argument to the EVM definitions
