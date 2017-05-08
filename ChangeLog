@@ -1,3 +1,43 @@
+2017-05-08  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* comm: preparing for a coming talk.
+
+	* eth-isabelle: checking https://github.com/mrsmkl/eth-isabelle/blob/master/lem/evm.lem#L1344
+	This makes more sense than what is currently written in the yellow paper, but what does the tests say?
+	Why didn't we come up with this kind of issues when we were discussing the EIPs?
+
+	* comm: reading up chat channels
+
+	* comm: answering a Reddit thread about formal verification. https://www.reddit.com/r/ethereum/comments/69rroh/what_is_going_on_with_formal_verification/
+
+2017-04-28  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* ../../howm/2017/04/2017-04-28-125159.txt: inria-prosecco/acme-model
+
+	* yellowpaper: what does it say about CREATING, overwriting an existing contract
+
+	* eth-isabelle: separated out a library for traversing directories
+
+	* yellowpaper: filed a PR to clarify the case SELFDESTRUCT tries to send fund to itself
+
+	* bamboo: filed a PR to cryptokit adding back the original Keccak submission
+	https://github.com/xavierleroy/cryptokit/pull/2
+
+2017-04-26  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* eth-isabelle: fixing the broken proof of call_gas_triple
+
+	* comm: reviewing something
+
+	* solidity:
+	clearning up wiki
+
+	* comm: preparing a blog post of pending projects
+
+	* comm: reading Greg's SIMD EIP
+
+	* ../eth-isabelle/tester/blockchainTestParser.ml (format_test_case): wrote a parser for blockchain tests
+
 2017-04-25  Yoichi Hirai  <yoichi@ethereum.org>
 
 	* eth-isabelle: added protocol version as an argument to many functions
@@ -12,6 +52,7 @@
 	https://github.com/ethereum/go-ethereum/pull/14337#discussion_r113196138
 	discussion on eip 214
 	reviewed REVERT in cpp-ethereum
+	found small problems in the difficulty change in go-ethereum
 
 	* ../eth-isabelle/lem/evm.lem: using network not the blocknumber to change protocol rules.
 
