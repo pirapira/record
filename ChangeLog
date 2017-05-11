@@ -1,3 +1,50 @@
+2017-05-10  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* ../yellowpaper/Paper.tex (subsection{Execution}): somehow reviewing my own YP PRs
+	I was also reviewing my own PRs on YP.  Mostly removing spurious white spaces.
+	Sometimes a duplicate condition.  Also I was adding dependencies of PRs.
+	"This PR only makes sense after that PR."
+
+	* metropolis: what kind of transaction should increment nonces.
+	On yellow paper PR 277
+
+	* comm: proper brainstorming on the coming talk
+
+	* metropolis: noticed that, now contract creation also needs to return output data
+	https://github.com/ethereum/yellowpaper/pull/278#issuecomment-300422518
+	This means some more time on YP changes.
+
+	* comm: wrote a blog post on a whim.  It became surprisingly popular.
+	https://medium.com/@pirapira/what-i-do-for-ethereum-when-im-not-writing-blogs-558bda344b8
+
+2017-05-09  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* metropolis: learned about the new salt argument in CREATE2.  Reflecting that onto the yellow paper.
+
+	* ../cpp-ethereum/libethereum/BlockChain.cpp (insert): OK, at least the receiptsRoot is checked here.
+
+	* ../cpp-ethereum/libethereum/BlockQueue.cpp (verifierBody): this might be where blocks are verified
+
+	* ../cpp-ethereum/libethcore/BlockHeader.cpp (clear): BlockHeader:verify() does not check the receipts root
+
+	* ../cpp-ethereum/libethcore/BlockHeader.h (dev): The value 'CheckEverything' seems relevant.
+	(dev): the function 'verify()' looks very relevant.
+
+	* ../cpp-ethereum/libethereum/BlockQueue.h: this looks also relevant.
+
+	* cpp-ethereum: and then, I need to look how cpp-ethereum deals with incoming blocks.
+	BlockchainSync class sounds relevant.
+
+	* metropolis: cpp-ethereum 4035 about medstate removal
+
+	* ../cryptokit/src/stubs-sha3.c: updated my cryptokit PR.
+
+	* comm: submit camera ready version of the Malta paper
+
+	* comm: travel organization for the coming talk, and scheduling the time for preparation
+
+	* solidity: reviewed 2247
+
 2017-05-08  Yoichi Hirai  <yoichi@ethereum.org>
 
 	* comm: preparing for a coming talk.
