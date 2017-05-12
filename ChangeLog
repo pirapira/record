@@ -1,3 +1,28 @@
+2017-05-11  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* read: statebox.org might be useful or not...
+	I guess there is more going on than what's visible online.
+
+	* metropolis: leaving some comments in go-ethereum
+
+	* ../cpp-ethereum/libethereum/State.cpp (createAccount): what now.
+	I suspect that we have not implemented EIP 161a.  Where the newly created contracts have nonce one.  How to see that.  Maybe I look at the blockchain tests.
+
+	* comm: considering if ProVerif can be a language for Ethereum contracts.
+	I thought the focus is a bit different, but everything in Horn clauses, sounds nice.
+	I'll continue to think about everything being Horn clauses.
+
+	* verification: reading the Boogie documentation
+
+	* solidity: review PR 2261 about optimization
+
+	* metropolis: said something on cpp-ethereum: REVERT during CREATE should leave RETURNDATA
+
+	* comm: structuring the coming talk
+
+	* ../yellowpaper/Paper.tex (section{Signing Transactions}\label{app:signing}):
+	Fixed one mistake in my YP PR 282
+
 2017-05-10  Yoichi Hirai  <yoichi@ethereum.org>
 
 	* ../yellowpaper/Paper.tex (subsection{Execution}): somehow reviewing my own YP PRs
