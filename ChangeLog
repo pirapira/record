@@ -1,3 +1,9 @@
+2017-05-12  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* metropolis: started writing tests
+	https://github.com/ethereum/tests/wiki/Creating-a-GeneralStateTest-(Yoichi's-attempt,-rough-record)
+	That took almost the whole day.
+
 2017-05-11  Yoichi Hirai  <yoichi@ethereum.org>
 
 	* read: statebox.org might be useful or not...
