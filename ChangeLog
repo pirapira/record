@@ -1,3 +1,10 @@
+2017-05-16  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* metropolis:
+	adding RETURNDATACOPY and RETURNDATASIZE to LLL
+	adding RETURNDATA* tests---still in progress
+	noticed solidity:develop test does not work with cpp-ethereum:develop test
+
 2017-05-15  Yoichi Hirai  <yoichi@ethereum.org>
 
 	* comm: many meetings
