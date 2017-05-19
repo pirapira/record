@@ -1,3 +1,27 @@
+2017-05-19  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* ../cpp-ethereum/libethcore/SealEngine.h (dev): started debugging the zksnark test
+	the new precompiled contracts are not found
+
+2017-05-18  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* ../tests/src/GeneralStateTestsFiller/stZeroKnowledge/pointMulAddFiller.json:
+	trying the zero knowledge tests with the cpp-ethereum:snark but the tests fail
+
+	* ../../.globalrc (common): trying
+	https://github.com/leoliu/ggtags/issues/83#issuecomment-66670022
+
+	* ../yellowpaper/Paper.tex (subsection{Instruction Set}): EIP96 is implemented in the yellow paper.
+
+2017-05-17  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* comm: preparing a summary for a talk in September
+
+	* metropolis:
+	added some test cases for RETURNDATACOPY and RETURNDATASIZE
+	also made a suggestion about freezing EIPs:
+	https://github.com/ethereum/pm/issues/14#issuecomment-302113189
+
 2017-05-16  Yoichi Hirai  <yoichi@ethereum.org>
 
 	* metropolis:
