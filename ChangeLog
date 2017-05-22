@@ -1,7 +1,13 @@
 2017-05-19  Yoichi Hirai  <yoichi@ethereum.org>
 
+	* metropolis: raised many points in the allcoredev meeting
+	used pyethereum test fillers to populate more ec tests
+
+	* comm: preparing for a talk in 10 days...
+
 	* ../cpp-ethereum/libethcore/SealEngine.h (dev): started debugging the zksnark test
 	the new precompiled contracts are not found
+	There was a } missing in a JSON document in a string literal.
 
 2017-05-18  Yoichi Hirai  <yoichi@ethereum.org>
 
