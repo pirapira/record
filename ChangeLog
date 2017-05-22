@@ -1,3 +1,14 @@
+2017-05-22  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* comm: had a talk with some tool developers about remix
+
+	* metropolis: having difficulty generating BlockChainTests.  Dimitry is helping me with some powerful machines.  I need to learn these tricks.
+	updated the cpp-ethereum branch for the libsnark.  This revealed problems in Windows.  chfast is on Windows debugging this.  I need to learn these tricks too.
+
+	* eth-isabelle: identified next steps for the blockchain tests
+
+	* ../cpp-ethereum/libethashseal/genesis/metropolisTest.cpp: integrating the snark tests into the cpp branch
+
 2017-05-19  Yoichi Hirai  <yoichi@ethereum.org>
 
 	* metropolis: raised many points in the allcoredev meeting
