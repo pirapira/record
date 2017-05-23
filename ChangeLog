@@ -1,3 +1,16 @@
+2017-05-23  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* ../cpp-ethereum/libdevcrypto/LibSnark.cpp: some review and refinements on snark
+
+	* wasm: saw the pldi paper about wasm
+	Maybe somebody will code it in Isabelle or something.
+
+	* comm: preparing for a talk, filling slides
+
+	* metropolis: some adjustments in the tests for elliptic curves (shorten file names)
+	adjust test names to file names
+	split files so that one file contains only one test case
+
 2017-05-22  Yoichi Hirai  <yoichi@ethereum.org>
 
 	* comm: had a talk with some tool developers about remix
