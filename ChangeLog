@@ -1,3 +1,14 @@
+2017-05-26  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* metropolis: wrote a blog post about testing
+	https://medium.com/@pirapira/what-happens-when-metropolis-eips-change-41ad2e9bde78
+
+	* testesh: need to learn about restructured text
+	cleaning up cpp-ethereum/doc
+
+	* metropolis: modexp EIP gas change had some problems.
+	Pointed them out and fixed them on my YP pull-request.
+
 2017-05-24  Yoichi Hirai  <yoichi@ethereum.org>
 
 	* metropolis:
