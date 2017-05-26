@@ -1,3 +1,15 @@
+2017-05-24  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* metropolis:
+	fixing compilation of snark branch on Mac
+
+	* ../yellowpaper/Paper.tex (section{Precompiled Contracts}\label{app:precompiled}):
+	Updated the yellow paper for the new gas costs for bigint
+
+	* comm: more talk preparation
+
+	* metropolis: continued shortening test names.
+
 2017-05-23  Yoichi Hirai  <yoichi@ethereum.org>
 
 	* ../cpp-ethereum/libdevcrypto/LibSnark.cpp: some review and refinements on snark
