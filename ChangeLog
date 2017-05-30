@@ -1,3 +1,12 @@
+2017-05-29  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* comm: started writing a blog post about Metropolis
+
+	* ../paper-formal-bytecode/munich/munich2017.tex (subsection{Tools}): preparing slides
+
+	* metropolis: trying to figure out what needs to happen before test is merged into develop
+	cpp-ethereum needs to be merged.
+
 2017-05-26  Yoichi Hirai  <yoichi@ethereum.org>
 
 	* comm: still preparing for the talk.  Printed the slides and marking fixes.
