@@ -1,3 +1,15 @@
+2017-06-07  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* comm:
+	Two phone calls.  Sent a letter to Munich.
+
+	* eth-isabelle:
+	Fixed AlwaysFail.thy
+	Trying to parse blockchain tests
+
+	* metropolis:
+	getting the new version of modexp calculation ready
+
 2017-06-06  Yoichi Hirai  <yoichi@ethereum.org>
 
 	* ../cpp-ethereum/doc/generating_tests.rst: still documenting testeth somehow.
