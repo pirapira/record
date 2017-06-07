@@ -1,3 +1,18 @@
+2017-06-06  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* ../cpp-ethereum/doc/generating_tests.rst: still documenting testeth somehow.
+
+	* ../cpp-ethereum/libethcore/Precompiled.cpp (namespace):
+	implementing a new gas cost calculation for modexp
+	Seems done, but need to add more tests.
+
+	* holiday: yesterday (Monday) was a holiday around here.
+
+	* comm: uploaded my slides I prepared for the talk in Munich
+
+	* metropolis: reviewed some improvements for the BLOCKHASH EIP.
+	YP about bigint_modexp: now looks fine.
+
 2017-06-02  Yoichi Hirai  <yoichi@ethereum.org>
 
 	* comm:	visitors from Japan
