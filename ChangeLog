@@ -1,3 +1,28 @@
+2017-06-08  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* ../solidity/libsolidity/analysis/ReferencesResolver.cpp (visit):
+	trying to push https://github.com/ethereum/solidity/pull/2275#issuecomment-307178100
+
+	* ../bamboo/src/lib/ethereum.ml (string_keccak): switched the hash function.
+
+	* ../eth-isabelle/lem/evm.lem: removing annotation.
+
+	* env: changed driver for the graphics card
+	https://ubuntuforums.org/showthread.php?t=2220588
+
+	* ../parity/ethcore/src/evm/interpreter/mod.rs: pointed out one thing in a private channel.
+
+	* env: setting up Racer
+
+	* env: somehow fixed NetworkManager configuration
+	https://askubuntu.com/a/882812/462472
+
+	* tool: deploying the casper contract on ropsten somehow.
+
+	* metropolis: modexp calculation, cleaned up too many commits
+	changed RETURNDATACOPY so that it throws on buffer overrun
+	Also changed the tests for REUTRNDATACOPY
+
 2017-06-07  Yoichi Hirai  <yoichi@ethereum.org>
 
 	* comm:
