@@ -1,3 +1,24 @@
+2017-06-09  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* comm: scheduled preparation for the talk in september.
+
+	* solidity: commented on issue about algebraic data type
+
+	* casper: tried to deploy simple_casper on ropsten, but the block gas limit seems too small for the deployment
+
+	* metropolis: the three addressing schemes in go-ethereum.
+
+	* metropolis: discussed the pairing thing with chfast.
+	EIP can be more specific about the input length.
+
+	* solidity:
+	from within the inline assembly, currently it's not possible to just peek the external (Solidity) scope.
+	So, for giving a warning about variable "returndatacopy" or something, I need a workaround.
+	Discussed this with chriseth.  Implemented the easy path.
+
+	* ../cpp-ethereum/libethcore/Precompiled.cpp (namespace):
+	spending some time on modexp pricer (still applying the change about counting bits)
+
 2017-06-08  Yoichi Hirai  <yoichi@ethereum.org>
 
 	* ../solidity/libsolidity/analysis/ReferencesResolver.cpp (visit):
