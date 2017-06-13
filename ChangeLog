@@ -1,3 +1,16 @@
+2017-06-12  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* metropolis: reviewing implementations.  Still finding differences.
+	tried to import modexp test fillers into ethereum/tests, but found a problem
+	found + 256 in a different location in Parity's blockhash change
+
+	* ../solidity/liblll/Parser.cpp (parseTreeLLL): enabled macros with zero arguments
+
+	* metropolis: tried LibFuzzer on the pairing checker
+	Some progress in returndatacopy throwing exceptions
+
+	* ../casper/casper/contracts/simple_casper.v.py: I wondered something 6 weeks ago, but it looks fine now
+
 2017-06-09  Yoichi Hirai  <yoichi@ethereum.org>
 
 	* comm: scheduled preparation for the talk in september.
