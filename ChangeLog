@@ -1,4 +1,18 @@
+2017-06-15  Yoichi Hirai  <yoichi@ethereum.org>
+
 2017-06-14  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* metropolis: obtained an access to a remote server
+	trying to fill blockchaintests there.
+
+	* solidity: reviewed four pull-reqs
+
+	* dry: deployed http://dry.yoichihirai.com
+	Created some issues in the dry-analyzer repository.
+
+	* comm: some paper review
+
+	* cpp-ethereum: fixing test https://github.com/ethereum/cpp-ethereum/pull/4098
 
 2017-06-13  Yoichi Hirai  <yoichi@ethereum.org>
 
