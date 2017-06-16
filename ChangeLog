@@ -1,5 +1,16 @@
 2017-06-15  Yoichi Hirai  <yoichi@ethereum.org>
 
+	* evm1.5: reading
+	https://github.com/ethereum/EIPs/blob/2eddd9668e9520479c3ed3e9ed67368a2cf29329/EIPS/eip-615.md
+
+	* cpp-ethereum:
+	opened https://github.com/ethereum/cpp-ethereum/pull/4151
+	found https://github.com/ethereum/cpp-ethereum/issues/4148
+	started fixing cpp-ethereum #4091, adding error for testeth with misspelt options
+
+	* ../cpp-ethereum/doc/generating_tests.rst:
+	Some final touches.
+
 2017-06-14  Yoichi Hirai  <yoichi@ethereum.org>
 
 	* metropolis: obtained an access to a remote server
