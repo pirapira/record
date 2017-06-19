@@ -1,3 +1,18 @@
+2017-06-19  Yoichi Hirai  <yoichi@ethereum.org>
+
+2017-06-16  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* comm: finished some paper review
+
+	* cpp-ethereum: noticed all Travis builds fail
+
+	* evm1.5: opened some pull-requests on
+	https://github.com/ethereum/EIPs/blob/2eddd9668e9520479c3ed3e9ed67368a2cf29329/EIPS/eip-615.md
+
+	* cpp-ethereum: opened #4155.
+
+	* ../../review.sig.txt: finished the review.
+
 2017-06-15  Yoichi Hirai  <yoichi@ethereum.org>
 
 	* evm1.5: reading
