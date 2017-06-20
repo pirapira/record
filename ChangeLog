@@ -1,4 +1,19 @@
+2017-06-20  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* cpp-ethereum: something looked wrong in the call gas computation but it was fine.
+
 2017-06-19  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* eip: eip619 looked ok
+
+	* reading eip 218
+
+	* metropolis:
+	updating ethereum/tests wiki with @winsvega
+
+	* ../cpp-ethereum/doc/generating_tests.rst: got this merged
+
+	* cpp-ethereum: tried a few things to fix Travis build but in vain
 
 2017-06-16  Yoichi Hirai  <yoichi@ethereum.org>
 
