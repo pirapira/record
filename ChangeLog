@@ -1,4 +1,14 @@
+2017-06-21  Yoichi Hirai  <yoichi@ethereum.org>
+
 2017-06-20  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* eth-isabelle: made some progress parsing blockchaintest
+	made a fix: gas price is not in the block but in the transaction
+
+	* cpp-ethereum: issue 4156  a wrong test case name
+	reproduce.
+	see the link by winsvega in the issue
+	think
 
 	* cpp-ethereum: something looked wrong in the call gas computation but it was fine.
 
