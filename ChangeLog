@@ -1,4 +1,23 @@
+2017-06-22  Yoichi Hirai  <yoichi@ethereum.org>
+
 2017-06-21  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* eth-isabelle: realized that blockchaintests requires ecdsarecover in the implementations.
+	This means, I need an OCaml implementation of ecdsarecover for eth-isabelle.
+
+	* comm: something about Parity
+	https://github.com/paritytech/parity/pull/4851/files#r123271715
+
+	* ../yellowpaper/Paper.tex (subsubsection{Exceptional Halting}): Added Nick's exception in the returndata branch
+
+	* cpp-ethereum: 2275 was already fixed.
+
+	* ../dry-analyzer/evm.v: added stack overflow checking
+
+	* metropolis: testeth should not accept odd-length hex strings as byte sequences
+
+	* cpp-ethereum: genesis directory, in some files,
+	snark related precompiles are mentioned but not modexp
 
 2017-06-20  Yoichi Hirai  <yoichi@ethereum.org>
 
