@@ -1,5 +1,45 @@
 2017-06-22  Yoichi Hirai  <yoichi@ethereum.org>
 
+	* cpp-ethereum: testeth errors when a general state test filler contains more than one test.  Opened #4196.
+
+	* rtags: finally trying rtags.
+
+	* read: what is a logarithmic classifier
+
+	* metropolis:
+	read over https://github.com/ethereum/cpp-ethereum/wiki/LLL-PoC-6/04fae9e627ac84d771faddcf60098ad09230ab58
+
+	* ../tests/src/GeneralStateTestsFiller/stRevertTest/RevertOpcodeInCreateReturnsFiller.json:
+	created a test case where 'REVERT' in a contract initialization code passes some data to the creating contract.
+
+	* metropolis: what is a good way to write init code in LLL?
+	Can I use (returnlll) for this purpose?
+	https://media.consensys.net/compiling-your-first-contract-in-lll-28d5a9dd2e3a
+	helped.
+	"(def 'returnlll (code) (return 0 (lll code 0)) )"
+	So, actually, (lll) does something.
+	I guess it stores the code in the memory, and returns the size of the code.
+
+	* spurious-dragon: trying to find out how to run consensus test in parity
+	cargo test --release --features ethcore/json-tests -p ethcore
+	might be the way...
+
+	* ../dry-analyzer/evm.v: solved issue 23.
+	About simplifying Solidity's concatenation behavior.
+
+	* solidity: rebased PR 1091
+
+	* metropolis: looking at
+	https://github.com/ethereum/go-ethereum/commit/9f6d8e1#diff-9726adad520ecc1ea064ef53ea8a18d0R40
+
+	* eth-isabelle: ecdsarecover might be found in
+	https://github.com/nickgian/ECC-OCaml
+	how to test this? or this.
+	https://github.com/dakk/secp256k1-ml
+	Then, some test cases need to be extracted from: ~/src/secp256k1/src/modules/recovery/tests_impl.h
+
+	* comm: answered an email about a contract analysis tool
+
 2017-06-21  Yoichi Hirai  <yoichi@ethereum.org>
 
 	* eth-isabelle: realized that blockchaintests requires ecdsarecover in the implementations.
