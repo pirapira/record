@@ -1,3 +1,31 @@
+2017-06-23  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* solidity:
+	https://github.com/ethereum/solidity/issues/2458
+
+	* ../bamboo/src/codegen/codegen_test2.ml (_.):
+	spliting layout_info and post_layout_info.  post_layout_info is only available after compiling the runtime code.
+
+	* ../tests/src/GeneralStateTestsFiller/stReturnDataTest/returndatasize_initial_zero_readFiller.json:
+	opened https://github.com/ethereum/tests/pull/194
+	for Metropolis testing
+
+	* isabelle: learnt about subst tactic
+
+	* dry: thought about classifying abstract values somehow.
+
+	* eth-isabelle: trying to remove the stack overflow during opam update in Travis CI
+	Had a closer look at @seed's work.
+	Trying to merge it as a PR.  What does Travis CI say?
+
+	* ../bamboo/src/codegen/layoutInfo.ml (arg_locations):
+	added an assertion in the argument location computation so that it does not try putting a tuple in a single storage slot.
+
+	* ../cpp-ethereum/libethashseal/genesis/transitionnetTest.cpp:
+	cpp-ethereum 4186, still fixing the starting block of the new precompileds.
+
+	* cpp-ethereum: closed 4148, confirmed the issue is gone.
+
 2017-06-22  Yoichi Hirai  <yoichi@ethereum.org>
 
 	* cpp-ethereum: testeth errors when a general state test filler contains more than one test.  Opened #4196.
