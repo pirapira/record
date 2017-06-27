@@ -1,3 +1,23 @@
+2017-06-27  Yoichi Hirai  <yoichi@ethereum.org>
+
+2017-06-26  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* test: added one test case about returndatacopy after a successful create
+
+	* comm: added a link to K framework in my github repos
+
+	* ../bamboo/src/codegen/codegen.ml (prepare_input_in_memory): changed the starting seed to one
+	a tiny bit of refactoring.
+	now the compiler generates bytecode for example 00a.
+
+	* bamboo: now it can generate the bytecode for example 009.
+	Added the constructor argument generation.
+
+	* eth-isabelle: rebased my PRs on top of @seed's changes
+
+	* cpp-ethereum: PR 4200, added a test about staticcall not inheriting the CALLVALUE
+	PR 4200, fixed tests
+
 2017-06-23  Yoichi Hirai  <yoichi@ethereum.org>
 
 	* solidity:
