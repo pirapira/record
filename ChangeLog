@@ -1,5 +1,16 @@
 2017-06-27  Yoichi Hirai  <yoichi@ethereum.org>
 
+	* ../bamboo/src/ast/syntax.ml (lookup_usual_case_in_single_contract.): fixed a bunch of bugs.
+	wrote a blog post https://medium.com/@pirapira/bamboo-compiler-started-producing-evm-bytecode-6a55e4633de9
+
+	* ../bamboo/src/parse/examples/00d_auction.bbo:
+	created a gitter room for bamboo
+
+	* ../bamboo/src/codegen/codegen.ml (prepare_function_signature.ce):
+	can generate code for all examples I prepared.
+	Should I call on the community first, or shall I test the code first?
+	I think I should test the code and then call the community.
+
 2017-06-26  Yoichi Hirai  <yoichi@ethereum.org>
 
 	* test: added one test case about returndatacopy after a successful create
