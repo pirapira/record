@@ -1,6 +1,12 @@
 2017-06-29  Yoichi Hirai  <yoichi@ethereum.org>
 
+	* eth-isabelle added circleCI badge
+
+	* ../practice/ocaml-rpc/main.ml (rpc_fd):
+	learned how to access json rpc using ocaml.
+
 	* eth-isabelle: fixed Coq build
+	also added the coq build to Circle CI.
 
 	* eth-isabelle: trying out Circle CI.
 	2 hours limit is nice.
@@ -10,6 +16,8 @@
 	* comm: created Awesome Ethereum Virtual Machine list
 
 	* bamboo: added Travis CI
+	tried ocaml-rpc for end-to-end testing
+	https://github.com/pirapira/practice/commit/ebeaac513ae0497c74467a8e45737c607f42a300
 
 2017-06-27  Yoichi Hirai  <yoichi@ethereum.org>
 
