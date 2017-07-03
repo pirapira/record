@@ -1,3 +1,10 @@
+2017-06-30  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* bamboo: trying to perform end-to-end testing
+	currently figuring out how to call the json interface from ocaml
+
+	* cpp-ethereum: found a bug in json interface that shows incorrect address after Metropolis
+
 2017-06-29  Yoichi Hirai  <yoichi@ethereum.org>
 
 	* eth-isabelle added circleCI badge
