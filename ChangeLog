@@ -1,3 +1,40 @@
+2017-07-04  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* bamboo: now Travis runs cpp-ethereum and end-to-end.ml talks to it
+	speed up Travis build by caching the compiled cpp-ethereum
+	some refactoring in end-to-end.ml
+
+	* metropolis: added one test case about MODEXP with exp containing many zeros in front
+
+	* dry-analyzer: implemented "next" button and "prev" button
+
+	* comm: still some bureaucracy
+
+2017-07-03  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* comm: wrote about bamboo, testing yellow paper and formal verification in Q2 roundup.
+
+	* comm: certain bureaucracy for the cambridge thing
+
+	* cpp-ethereum: filed a few issues about testeth and testing.
+	updating chain parameters for soltest
+
+	* metropolis: slowly figuring out the test failures in go-ethereum.
+	Filed one test case about RETURNDATACOPY.
+	Filed an issue about cpp-ethereum returning a wrong new address to the json interface.
+	Found something in Parity, staticcall.  The EIP turned out to be ambiguous.
+
+	* ../practice/ocaml-rpc/main.ml (advance_block):
+	now I can deploy and call contracts from OCaml.
+	refactored advancing blocks
+	Also learned how to use ppx_deriving with merlin.  Very easy.  Just listing PKG ppx_deriving in .merlin file.
+
+	* bamboo:
+	learned how to deploye and call contracts from OCaml.
+
+	* ../tests/src/GeneralStateTestsFiller/stReturnDataTest/returndatasize_initialFiller.json:
+	removed duplicate compiled code (that was in addition to the LLL code)
+
 2017-06-30  Yoichi Hirai  <yoichi@ethereum.org>
 
 	* bamboo: trying to perform end-to-end testing
