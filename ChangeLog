@@ -1,8 +1,14 @@
+2017-07-05  Yoichi Hirai  <yoichi@ethereum.org>
+
 2017-07-04  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* cpp-ethereum reviewed 4204
 
 	* bamboo: now Travis runs cpp-ethereum and end-to-end.ml talks to it
 	speed up Travis build by caching the compiled cpp-ethereum
-	some refactoring in end-to-end.ml
+	some refactoring in end-to-end.ml, separated useful utilities out of the mass
+	end-to-end.ml now uses the compiler to produce the bytecode
+	cached cmake
 
 	* metropolis: added one test case about MODEXP with exp containing many zeros in front
 
