@@ -1,3 +1,43 @@
+2017-07-10  Yoichi Hirai  <yoichi@ethereum.org>
+
+2017-07-07  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* cpp-ethereum: reviewed cpp-ethereum 4232
+
+	* bamboo: merged #40
+
+	* metropolis: found the other difference between go-ethereum and cpp-ethereum
+	raised an issue in cpp-ethereum
+
+	working on cpp-ethereum 4228
+
+	* comm: read "Some thoughts on blockchain governance"
+	added Securify to the Awesome Ethereum Virtual Machine list
+	edited the Ethereum word list a bit
+	played a bit with Securify and gave some comments.
+
+2017-07-06  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* bamboo: wrote a program similar to 006 but with a named case.
+	Travis build is still failing.
+
+	* metropolis: followed the EIP 86 change in YP.
+
+	* tests: polished some test PRs.
+	Added a PR about baseLength = 2^64
+
+	* cpp-ethereum: contract creation should result in nonce 0 or 1, opening a PR.
+	Somehow got the test merged first.
+	reviewed 4224 and 4229.
+	Followed the change in EIP86 in cpp-ethereum
+
+	* comm: answered somebody interested in eth-isabelle.  Proposed a schedule for a call.
+
+	* comm: conversation with somebody who is preparing some document explaining Ethereum.
+
+	* comm: set up the word list.
+	https://github.com/pirapira/ethereum-word-list
+
 2017-07-05  Yoichi Hirai  <yoichi@ethereum.org>
 
 	* eth-isabelle: noticed max code size is not implemented in block.lem
