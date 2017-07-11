@@ -1,4 +1,33 @@
+2017-07-11  Yoichi Hirai  <yoichi@ethereum.org>
+
 2017-07-10  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* yellowpaper: got one PR merged.
+
+	* bamboo:
+	Somehow got calling working in 00b.
+
+	* cpp-ethereum
+	got 4232 merged?
+	rebased 4231
+	rebased 4236
+	worked on 4237: opened PR 4244
+	found 4241
+	found 4242
+
+	* comm: checked typedefs.com
+	checked Rosette VM
+	checked roundup-round-iii
+	had a call with somebody interested in eth-isabelle
+
+	* metropolis: read cderio's summary on EIP-86 discussion.
+	got tests #218 merged.
+	filed a PR for another modexp test case
+
+	* cpp-ethereum: issue 4237.
+	Sometimes the state root of an account needs to be reset.
+	But what happens to the backing database of state root hash --> state trie?
+	Is it the case the overwritten root hash is removed from the database?
 
 2017-07-07  Yoichi Hirai  <yoichi@ethereum.org>
 
