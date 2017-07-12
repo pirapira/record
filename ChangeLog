@@ -1,4 +1,12 @@
+2017-07-12  Yoichi Hirai  <yoichi@ethereum.org>
+
 2017-07-11  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* cpp-ethereum: checked 4240 is not an issue anymore.
+
+	* comm: scheduling two more calls.
+
+	* bamboo: now the init code checks if the constructor arguments are given.  issue 45 is fixed.
 
 2017-07-10  Yoichi Hirai  <yoichi@ethereum.org>
 
