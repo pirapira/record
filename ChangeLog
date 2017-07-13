@@ -1,4 +1,14 @@
+2017-07-13  Yoichi Hirai  <yoichi@ethereum.org>
+
 2017-07-12  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* bamboo: made sure that unknown types in runtime arguments cause errors
+	started working on calling ecdsarecover
+
+	* cpp-ethereum
+	reviewed 4249
+
+	* solidity: reviewed 2364 and made another PR
 
 2017-07-11  Yoichi Hirai  <yoichi@ethereum.org>
 
