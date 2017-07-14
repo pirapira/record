@@ -1,4 +1,31 @@
+2017-07-14  Yoichi Hirai  <yoichi@ethereum.org>
+
 2017-07-13  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* solidity: discussion about calling mechanism expecting failures.
+
+	* read: checked what is Moeser-Eyal-Sirer wallets.
+
+	* eth-isabelle: looked at exI_pick_last_conj.  saw what it does.  I still don't understand how this is implemented.
+
+	* metropolis: asked holiman how to reproduce hive failure.  Got an answer.  I need to try this.
+	created a PR for hive: change README to use go-ethereum:master instead of go-ethereum:develop, which does not exist anymore.
+	got the idea about max-code-size on go-ethereum.
+
+	* tests: reviewed 226, created an identical PR using a branch in ethereum/tests
+	rebased that on top of 222.
+	rebasing two more PRs on top of 222.
+
+	* bamboo: used cpp-ethereum unit tests to get a test case for ecdsarecover
+	Somehow produced bytecode for a source containing ecdsarecover
+	added uint8
+	added bytes32
+	thought about using 128 bit integers and perform runtime overflow detection by default.  Maybe not because I like the compiler to be small.
+
+	* command: git branch --sort=committerdate
+
+	* eth-isabelle: saw the behavior of exI_pick_last_conj
+	it figures out the witness, using the last conjunct.
 
 2017-07-12  Yoichi Hirai  <yoichi@ethereum.org>
 
