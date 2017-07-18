@@ -1,5 +1,17 @@
 2017-07-17  Yoichi Hirai  <yoichi@ethereum.org>
 
+	* cpp-ethereum:
+	cpp-ethereum:develop and tests:develop were not working together, so fixed them.
+	added EIP658 to Metropolis meta EIP
+	added EIP658 to EIPs README, accepted EIP list
+
+	* ../bamboo/src/exec/end-to-end.ml (test_rewindToBlock): successfully called ecdsarecover in a nontrivial way
+	had to fix calldata offsets.
+	added type checking for arguments.
+
+	* ../yellowpaper/Paper.tex (subsection{State \& Nonce Validation}\label{sec:statenoncevalidation}):
+	Implemented EIP-658 in YP.
+
 2017-07-14  Yoichi Hirai  <yoichi@ethereum.org>
 
 	* metropolis: tried hive locally
