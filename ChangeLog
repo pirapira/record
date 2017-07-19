@@ -1,3 +1,15 @@
+2017-07-19  Yoichi Hirai  <yoichi@ethereum.org>
+
+2017-07-18  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* metropolis: automated the filling of failing blockchain tests
+	waiting
+
+	* cpp-ethereum: trying to speed up the build
+
+	* ../bamboo/src/exec/end-to-end.ml (testing_010.both): implemented && for bamboo with shortcuts
+	Implemented keccak256(a,b,c)
+
 2017-07-17  Yoichi Hirai  <yoichi@ethereum.org>
 
 	* cpp-ethereum:
