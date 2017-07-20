@@ -1,4 +1,14 @@
+2017-07-20  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* ../bamboo/src/exec/collision.ml (names): played around finding 32-bit collisions on function signature hashes
+
 2017-07-19  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* solidity: reviewed and merged many PRs
+
+	* bamboo: add iszero
+
+	* metropolis: filled tests for EIP386
 
 2017-07-18  Yoichi Hirai  <yoichi@ethereum.org>
 
