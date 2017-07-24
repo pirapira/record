@@ -1,4 +1,19 @@
+2017-07-24  Yoichi Hirai  <yoichi@ethereum.org>
+
+2017-07-21  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* bamboo: finished tests and debugging of payment channel.
+
+	* cpp-ethereum: implemented test_rawSign
+
 2017-07-20  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* bamboo: finished the implementation of a payment channel
+	but testing require some raw ecdsa signature method.
+
+	* cpp-ethereum: finished implementation of EIP386
+	tried templight to see the template instantiations, but got not much ideas
+	filed a pull-request making header files smaller.
 
 	* ../bamboo/src/exec/collision.ml (names): played around finding 32-bit collisions on function signature hashes
 
