@@ -1,4 +1,32 @@
+2017-07-26  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* eth-isabelle:
+	rebased my two PRs on top of seed's contribution
+
+	* bamboo: deployed the ERC20 token on ropsten, announced.
+	type-check the returned expressions
+	generate --abi
+
+2017-07-25  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* bamboo: implemented events.
+	Fixed issue 11.
+
+	* metropolis: saw the pairing checker EIP fixed
+	changed YP PR accordingly
+	ethereum/tests, applied some new gas formula for modexp
+
 2017-07-24  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* bamboo: implemented mapping of mappings
+	started implementing the events
+
+	* cpp-ethereum: polishing my PR about smaller headers
+	implemented the new modexp gas cost
+
+	* yellowpaper: implemented the new modexp gas formula
+
+	* metropolis: tried the new tests on go-ethereum and saw some failures.
 
 2017-07-21  Yoichi Hirai  <yoichi@ethereum.org>
 
