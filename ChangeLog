@@ -1,3 +1,24 @@
+2017-08-01  Yoichi Hirai  <yoichi@ethereum.org>
+
+2017-07-31  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* private: took a day off
+
+2017-07-28  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* yellowpaper: searched for javascript RPC methods useful for investigating address3.  didn't find anything.
+
+	* comm: added porosity to Awesome EVM list
+
+	* ../bamboo/src/codegen/codegen.ml (codegen_send_exp):
+	changed the executable from bbo into bamboo
+	prepared for opam release
+	renamed end-to-end into endToEnd, following the OCaml convention
+
+2017-07-27  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* bamboo: filed and merged some 11 PRs.
+
 2017-07-26  Yoichi Hirai  <yoichi@ethereum.org>
 
 	* eth-isabelle:
