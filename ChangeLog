@@ -1,5 +1,12 @@
 2017-08-01  Yoichi Hirai  <yoichi@ethereum.org>
 
+	* comm: add KEVM whitepaper to the awesome list
+
+	* bamboo: got it on opam
+	will write a nice tutorial starting from installation.
+
+	* cpp-ethereum: splitting Metropolis into Byzantium and Constantinople
+
 2017-07-31  Yoichi Hirai  <yoichi@ethereum.org>
 
 	* private: took a day off
