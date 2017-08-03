@@ -1,3 +1,20 @@
+2017-08-03  Yoichi Hirai  <yoichi@ethereum.org>
+
+2017-08-02  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* ../bamboo/doc/semantics.md:
+	started writing the semantics of Bamboo
+
+	* constantinople: saw that the zeroSig transaction cannot be filled during --fillchain
+
+	* cpp-ethereum: worked more on splitting Metropolis
+	reviewed something in evmjit
+
+	* comm: started thinking about the talk later in this month.
+	"what I think about what KEVM people think about EVM"
+
+	* bamboo: wrote a tutorial.
+
 2017-08-01  Yoichi Hirai  <yoichi@ethereum.org>
 
 	* comm: add KEVM whitepaper to the awesome list
