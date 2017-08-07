@@ -1,4 +1,12 @@
+2017-08-07  Yoichi Hirai  <yoichi@ethereum.org>
+
 2017-08-04  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* eth-isabelle:
+	implemented ecdsa recover wrapper for OCaml
+
+	* metropolis: fixed odd-length hex in vm test fillers
+	added a YP PR where address collision should throw
 
 2017-08-03  Yoichi Hirai  <yoichi@ethereum.org>
 
