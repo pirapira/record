@@ -1,4 +1,24 @@
+2017-08-08  Yoichi Hirai  <yoichi@ethereum.org>
+
 2017-08-07  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* cpp-ethereum: fixed issue 4304
+
+	* eth-isabelle: rebased execute_blockchaintest branch
+
+	* comm: read a draft from KEVM team.
+	started preparing for the talk later this month
+
+	* bamboo: making sure two side effects don't happen
+	making sure all sentences have side effects
+	asked evmlang people to read Bamboo semantics
+	solved issue 171: added a test with two default case
+
+	* metropolis: learned how to benchmark go-ethereum and parity
+	found that Parity does not report results for ecadd and ecmul
+	looked at the codesizeValid problem.  apparently problem is caused by the confusion from the authentic spec being a comment.
+
+	* evm1.5: started defining evm1.5 in Isabelle/HOL
 
 2017-08-04  Yoichi Hirai  <yoichi@ethereum.org>
 
