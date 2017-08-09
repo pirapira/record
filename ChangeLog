@@ -1,4 +1,18 @@
+2017-08-09  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* ../go-ethereum/tests/init_test.go: 
+
 2017-08-08  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* comm: brainstormed again for the talk in Cambridge
+
+	* eth-isabelle: implementing parsed_transaction_into_model_transaction (for running BlockChainTest)
+
+	* bamboo: finished implementation of multiple side-effect detection.
+
+	* metropolis: add a GeneralStateTest that RETURNDATACOPYs data from REVERT
+	learned how to test go client locally
+	learned how to benchmark opcodes and precompiled contracts on go-ethereum
 
 2017-08-07  Yoichi Hirai  <yoichi@ethereum.org>
 
