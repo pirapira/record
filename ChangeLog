@@ -1,4 +1,21 @@
+2017-08-11  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* metropolis: saw some tests fixed on geth.
+	found one still failing.
+	coredev meeting added some more tasks.
+
+	* cpp-ethereum: removed the races.
+	opened PR for faster blockchain test filling.
+	discussed with Andrei about the first refactoring move on testeth.
+
+	* bamboo: started #177 interfaces
+	Later somebody kindly took it.
+
 2017-08-10  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* testeth: tried to remove the race conditions detected by tsan
+
+	* comm: trying to read Plasma
 
 2017-08-09  Yoichi Hirai  <yoichi@ethereum.org>
 
