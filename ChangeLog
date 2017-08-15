@@ -1,3 +1,14 @@
+2017-08-15  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* awesome-ethereum-virtual-machine: added directory names and file names
+
+	* comm: contributed to the roundup document about bamboo, eth-isabelle and yellow paper
+
+	* cpp-ethereum: still fixing PR 4329
+
+	* metropolis: fixed a test case for OOM in modexp when expLen is too big.
+	filed and got merged a PR that moves eip96 into Constantinople
+
 2017-08-11  Yoichi Hirai  <yoichi@ethereum.org>
 
 	* metropolis: saw some tests fixed on geth.
