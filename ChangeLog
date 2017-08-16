@@ -1,4 +1,14 @@
+2017-08-16  Yoichi Hirai  <yoichi@ethereum.org>
+
 2017-08-15  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* comm: preparing a talk.
+
+	* EIPs: got an EIP merged for address collision behavior
+
+	* metropolis: filling tests again after moving EIP96 to Constantinople
+
+2017-08-14  Yoichi Hirai  <yoichi@ethereum.org>
 
 	* awesome-ethereum-virtual-machine: added directory names and file names
 
