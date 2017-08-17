@@ -1,4 +1,17 @@
+2017-08-17  Yoichi Hirai  <yoichi@ethereum.org>
+
 2017-08-16  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* bamboo: tried on OCaml 4.05
+
+	* cpp-ethereum: filed a small PR that changes the type of doTest()
+
+	* metropolis: filled tests again for moving EIP96 to Constantinople
+	Noticed that testeth does not tell all problems at once.
+	Still implementing the mining related changes.
+
+	* comm: preparing a talk.
+	accepted an invitation to be a PC member.
 
 2017-08-15  Yoichi Hirai  <yoichi@ethereum.org>
 
