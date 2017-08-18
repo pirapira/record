@@ -1,4 +1,16 @@
+2017-08-18  Yoichi Hirai  <yoichi@ethereum.org>
+
 2017-08-17  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* eth-isabelle: fixed the coq build
+
+	* metropolis: eip96-delay hit ethereum/tests
+
+	* comm: preparing code, more
+
+	* ../cpp-ethereum/libethashseal/Ethash.cpp (verify): getting cpp4338 in shape.
+	started changing tests
+	proposed to make fake_blk_no at least zero
 
 2017-08-16  Yoichi Hirai  <yoichi@ethereum.org>
 
