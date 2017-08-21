@@ -1,4 +1,11 @@
+2017-08-21  Yoichi Hirai  <yoichi@ethereum.org>
+
 2017-08-18  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* comm: preparing for talk
+
+	* metropolis: implemented eip 649
+	started fixing tests for eip649
 
 2017-08-17  Yoichi Hirai  <yoichi@ethereum.org>
 
@@ -6,7 +13,7 @@
 
 	* metropolis: eip96-delay hit ethereum/tests
 
-	* comm: preparing code, more
+	* comm: preparing talk, more
 
 	* ../cpp-ethereum/libethashseal/Ethash.cpp (verify): getting cpp4338 in shape.
 	started changing tests
