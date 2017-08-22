@@ -1,4 +1,13 @@
+2017-08-22  Yoichi Hirai  <yoichi@ethereum.org>
+
 2017-08-21  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* comm: still preparing for the talk
+
+	* metropolis: filling more tests on eip649
+
+	* cpp-ethereum: some glitch on develop branch.
+	got some refactoring merged.
 
 2017-08-18  Yoichi Hirai  <yoichi@ethereum.org>
 
