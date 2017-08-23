@@ -1,4 +1,24 @@
+2017-08-23  Yoichi Hirai  <yoichi@ethereum.org>
+
 2017-08-22  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* metropolis: trying to fix the EIP649 branch
+
+	* comm: saw what Bram Cohens talked about.
+
+	* comm: still preparing a talk.  Saw all slides and made notes how to improve them.  I need to repeat this a few times more at least.
+
+	* cpp-ethereum: removed a bug I introduced.
+	("network" field got missing after fillBC)
+
+	* comm: scheduled a paper review
+
+	* cpp-ethereum: removed some unused macros
+
+	* metropolis: fixed some test format issues (missing 0x)
+	re-generated some tests whose post states contained empty accounts.
+	empty accounts should not appear after EIP158.
+	got EIP649 branch ready, I believed.
 
 2017-08-21  Yoichi Hirai  <yoichi@ethereum.org>
 
