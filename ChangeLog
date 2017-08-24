@@ -1,4 +1,16 @@
+2017-08-24  Yoichi Hirai  <yoichi@ethereum.org>
+
 2017-08-23  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* comm: testing call, reported progress below
+
+	* cpp-ethereum: filed a doBlockchaintest() refactoring PR.  still need to add a test
+	removed TestHelper.h from most unit test files.
+	removed a race condition, and a spurious sleep
+
+	* metropolis: got test 269 merged for eip649
+	started --fillchain after that on the server
+	filed PRs for address collision failure
 
 2017-08-22  Yoichi Hirai  <yoichi@ethereum.org>
 
