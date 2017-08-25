@@ -1,3 +1,9 @@
+2017-08-25  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* cpp-ethereum:
+	worked on 4396,4382, 4367, 4384
+	working on 4395.  Trying to bisect the issue.
+
 2017-08-24  Yoichi Hirai  <yoichi@ethereum.org>
 
 2017-08-23  Yoichi Hirai  <yoichi@ethereum.org>
