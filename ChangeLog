@@ -1,3 +1,15 @@
+2017-08-28  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* metropolis: fixing hive test suite
+
+	* comm: preparing for a talk
+
+	* cpp-ethereum: enabled a commented test cpp 4402
+	cpp 4375: more REQUIRES before looking up elements in JSON
+	cpp 4404: got merged.  Consolidate options of testeth
+
+	* yellow paper: fixed PR about status code in transaction receipt
+
 2017-08-25  Yoichi Hirai  <yoichi@ethereum.org>
 
 	* cpp-ethereum: swapped the first and second arguments of InvalidStateRoot
