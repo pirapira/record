@@ -1,3 +1,15 @@
+2017-08-30  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* comm: gave a talk.
+
+2017-08-29  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* comm: preparing for a talk
+	reviewing a paper.
+
+	* tests: fixed VMtest formats
+	forgot to add --all option to --fillchain, so filling the leftovers.
+
 2017-08-28  Yoichi Hirai  <yoichi@ethereum.org>
 
 	* metropolis: fixing hive test suite
@@ -13,14 +25,15 @@
 2017-08-25  Yoichi Hirai  <yoichi@ethereum.org>
 
 	* cpp-ethereum: swapped the first and second arguments of InvalidStateRoot
-	cpp 4392
-	cpp 4384
+	cpp 4392 consolidate options
+	cpp 4384 address collision eip
 	raised an issue about testeth --fillchain should cause an error on a BlockchainTest
 	cpp 4367
+	cpp 4395 filler broken?
+	cpp 4338 reward reduction EIP
+	filler result depends on LLL!
 	cpp 4395
-	cpp 4338
-	cpp 4395
-	tests 213
+	tests 213 merged, JSON schema!
 
 2017-08-24  Yoichi Hirai  <yoichi@ethereum.org>
 
