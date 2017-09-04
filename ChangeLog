@@ -1,3 +1,17 @@
+2017-09-04  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* ../cpp-ethereum/test/tools/libtesteth/TestHelper.cpp (dev): 
+
+2017-09-01  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* comm: booked a bus from Cambridge to Stansted
+
+	* metropolis: filled stRefund tests into blockchaintests again
+
+	* cpp-ethereum: removed some deadcode
+	replaced string concatenation with boost::filesystem::path::operator/()
+	saw tests #294 fixed
+
 2017-08-30  Yoichi Hirai  <yoichi@ethereum.org>
 
 	* comm: gave a talk.
