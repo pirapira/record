@@ -1,6 +1,16 @@
+2017-09-05  Yoichi Hirai  <yoichi@ethereum.org>
+
 2017-09-04  Yoichi Hirai  <yoichi@ethereum.org>
 
-	* ../cpp-ethereum/test/tools/libtesteth/TestHelper.cpp (dev): 
+	* cpp-ethereum: when InvalidStateRoot, the hex values in the error message contains 0x now
+
+	* metropolis: wrote a test case where a call transaction REVERTs
+
+	* eth-isabelle: figured I need RLP in OCaml before proceeding with BlockchainTests
+
+	* comm: sent around some advertisements about a Stanford workshop
+	some academic service
+	made tu berlin slides available
 
 2017-09-01  Yoichi Hirai  <yoichi@ethereum.org>
 
