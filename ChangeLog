@@ -1,4 +1,13 @@
+2017-09-06  Yoichi Hirai  <yoichi@ethereum.org>
+
 2017-09-05  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* metropolis: wrote a test with REVERT in a message call transaction
+
+	* comm: preparing for a talk
+
+	* ../rlp-ocaml/rlp.ml (decodeObj): implemented RLP in OCaml.  not yet published.
+	some more tests need to be added.
 
 2017-09-04  Yoichi Hirai  <yoichi@ethereum.org>
 
