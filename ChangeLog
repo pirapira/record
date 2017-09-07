@@ -1,4 +1,15 @@
+2017-09-07  Yoichi Hirai  <yoichi@ethereum.org>
+
 2017-09-06  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* comm: preparing for a talk
+
+	* cpp-ethereum:
+	found a problem where tests are filled even when fillers contain wrong expectations
+	fixed PR 4468
+	trying to fix tests on PR 4458
+
+	* eth-isabelle: pushed rlp-ocaml to opam
 
 2017-09-05  Yoichi Hirai  <yoichi@ethereum.org>
 
