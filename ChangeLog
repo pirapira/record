@@ -1,4 +1,31 @@
+2017-09-19  Yoichi Hirai  <yoichi@ethereum.org>
+
+2017-09-18  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* bamboo: figuring out next todos on the bamboo spec
+
+	* comm: some bureaucracy about the trip last week
+
+	* comm: drew some slides for devcon3
+
+	* metropolis: implemented a test on pairing precompiled contract where g1 is invalid but g2 is zero.
+
+	* metropolis: a test involving revert in DELEGATECALL
+
+	* comm: accounting on arm research summit
+
+	* comm: scheduled tweets showing slides about ARM Research Summit
+
+	* cpp-ethereum: rebased PR 4481
+	rebased tests 289
+	rebased tests 313
+	created PR 4513: fixing genesis configurations of misspelled keywords
+	rebased PR 4468
+
 2017-09-15  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* cpp-ethereum: fixed build of 4481
+	reviewed 4499, 4496
 
 	* comm: language meeting
 	people know something about recent trends and so.
