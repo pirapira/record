@@ -1,4 +1,20 @@
+2017-09-20  Yoichi Hirai  <yoichi@ethereum.org>
+
 2017-09-19  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* comm: answered a question on yellow paper issues 339, 343
+
+	* metropolis: created test about big revert in init code.
+	wrote a test about REVERT during a STATICCALL
+	yellow paper PR 297 has finished.
+	test 328
+
+	* cpp-ethereum: reviewed cpp 4521
+	reviewed cpp 4518
+	rebased cpp 4481: Validity spelling
+	rebased cpp 4468
+	somehow implemented debug_accountInTrie method, to be used for Yellow Paper investigation
+	adding syntax checker on genesis configuration JSON, unknown fields should throw errors
 
 2017-09-18  Yoichi Hirai  <yoichi@ethereum.org>
 
@@ -16,7 +32,7 @@
 
 	* comm: scheduled tweets showing slides about ARM Research Summit
 
-	* cpp-ethereum: rebased PR 4481
+	* cpp-ethereum:
 	rebased tests 289
 	rebased tests 313
 	created PR 4513: fixing genesis configurations of misspelled keywords
