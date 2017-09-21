@@ -1,4 +1,21 @@
+2017-09-21  Yoichi Hirai  <yoichi@ethereum.org>
+
 2017-09-20  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* yellowpaper: created https://github.com/ethereum/EIPs/issues/716
+	reviewed PR 336
+
+	* LLL: figured why CompilerState.cpp writes twice to memory position zero [0]:0 [0]:(msize)
+
+	* bamboo: decided to use sigma instead of Gamma for variable environments.
+
+	* comm: drew one slide for cancun in an odp file
+
+	* KEVM: tried to run test and got https://github.com/kframework/evm-semantics/issues/89
+
+	* cpp-ethereum:
+	fixed 4523
+	rebased 4481
 
 2017-09-19  Yoichi Hirai  <yoichi@ethereum.org>
 
