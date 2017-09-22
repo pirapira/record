@@ -1,4 +1,25 @@
+2017-09-22  Yoichi Hirai  <yoichi@ethereum.org>
+
 2017-09-21  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* casper: read the basic.pdf noticed I need to change the slashing conditions in my cancun slides and in the Isabelle proofs
+	read the first two sections in economics_basic.pdf
+
+	* dry-analyzer: added an automatic monitoring on dry.yoichihirai.com
+
+	* yellowpaper: marked state-cleaning PR as work in progress while we form an agreement
+
+	* bamboo: filed PR 197, moving a function to a library
+
+	* cpp-ethereum: PR 4523: genesis config syntax checker in cpp.  I was also able to simplify the code.
+	talked with Dimitry and filed a smaller PR moving one function from one file to a class.
+
+	* eth-isabelle: somebody asked if proofs are still working, so checked if they are still working.  Probably they are using a newer version of Isabelle.
+
+	* comm: answered yellow paper 340.
+
+	* kevm: tried to run tests, reported one issue
+	https://github.com/kframework/evm-semantics/issues/90
 
 2017-09-20  Yoichi Hirai  <yoichi@ethereum.org>
 
