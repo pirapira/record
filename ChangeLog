@@ -1,4 +1,19 @@
+2017-09-25  Yoichi Hirai  <yoichi@ethereum.org>
+
 2017-09-22  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* yellowpaper: changed minds about empty account ambiguity.
+
+	* bamboo: fixed PR 197
+	replaced Gamma with sigma in the spec.
+
+	* cpp-ethereum: fixed PR 4532
+	fixed PR 4468
+	fixed PR 4481
+
+	* kevm: tried to compile K from source, but I was on a wrong version of JDK.
+
+	* metropolis: wrote a test case that sees REVERT resets the returndata buffer.
 
 2017-09-21  Yoichi Hirai  <yoichi@ethereum.org>
 
@@ -8,6 +23,7 @@
 	* dry-analyzer: added an automatic monitoring on dry.yoichihirai.com
 
 	* yellowpaper: marked state-cleaning PR as work in progress while we form an agreement
+	answered questions on some GitHub issues.
 
 	* bamboo: filed PR 197, moving a function to a library
 
