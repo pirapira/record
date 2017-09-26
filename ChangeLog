@@ -1,4 +1,24 @@
+2017-09-26  Yoichi Hirai  <yoichi@ethereum.org>
+
 2017-09-25  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* env: setting up a development server on my own
+
+	* cpp-ethereum: rebased PR 4481, which is about the typo in the word Validity
+	completed the avoid-multiple-locks branch
+	reviewed PR 4543, which is difficulty test
+
+	* comm: drew picture two for the Devcon talk.
+	contributed a few paragraphs to the roundup
+
+	* bamboo: trying to fix the build of PR 197.  The problem seems to happen because I removed endl; in eth/eth.
+
+	* eth-isabelle: split the task of parse_blockchaintests into rlp of transaction and hash of transaction
+
+	* kevm: tried running tests.  saw many successes.
+	The key was to use jdk version 8.
+
+	* roudup: gathered stuff for roundup from below.
 
 2017-09-22  Yoichi Hirai  <yoichi@ethereum.org>
 
@@ -94,7 +114,7 @@
 
 2017-09-15  Yoichi Hirai  <yoichi@ethereum.org>
 
-	* cpp-ethereum: fixed build of 4481
+	* cpp-ethereum: fixed build of 4481 (typo)
 	reviewed 4499, 4496
 
 	* comm: language meeting
@@ -191,7 +211,7 @@
 2017-08-24  Yoichi Hirai  <yoichi@ethereum.org>
 
 	* cpp-ethereum:
-	worked on 4396,4382, 4367, 4384
+	worked on 4396, 4382 (const input), 4367, 4384 (EIP684)
 	working on 4395.  Trying to bisect the issue.
 
 2017-08-23  Yoichi Hirai  <yoichi@ethereum.org>
@@ -258,7 +278,7 @@
 
 	* bamboo: tried on OCaml 4.05
 
-	* cpp-ethereum: filed a small PR that changes the type of doTest()
+	* cpp-ethereum: filed a small PR that changes the type of doTest() cpp PR 4341
 
 	* metropolis: filled tests again for moving EIP96 to Constantinople
 	Noticed that testeth does not tell all problems at once.
