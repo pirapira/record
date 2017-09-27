@@ -1,4 +1,19 @@
+2017-09-27  Yoichi Hirai  <yoichi@ethereum.org>
+
 2017-09-26  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* env: set up the home server.  It's very comfortable remotely, but noisy in proximity.  Started considering a new machine.
+
+	* cpp-ethereum: rebased 4481, about Validity typo.
+	fixed PR 4547, about avoiding race condition.
+	rebased 4523, which is about validating genesis config JSON
+
+	* comm: preparing a couple of slides for Cancun
+	now drafting slides for the dynamic validator set
+	Fixed the "another Casper" article on medium, based on comments.
+
+	* tests: fixed PR 338
+	tried an old issue 305 and saw it does not happen anymore.
 
 2017-09-25  Yoichi Hirai  <yoichi@ethereum.org>
 
