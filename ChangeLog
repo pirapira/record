@@ -1,4 +1,24 @@
+2017-09-28  Yoichi Hirai  <yoichi@ethereum.org>
+
 2017-09-27  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* byzantium: RETURNDATACOPY after a failing CALL (due to insufficient balance) should throw exception if offset is not zero
+
+	* yellowpaper: added a branch called byzantium
+
+	* comm: drawing slides for Devcon
+	tried ethdasm, but got an error, raised an issue.
+
+	* kevm: tried quick tests, and saw one failure. I need to report it.
+
+	* bamboo: added syntactic types in the spec
+	https://github.com/pirapira/bamboo/pull/199 added a vault as an example
+
+	* cpp-ethereum: PR 4564, removing unused code
+	got PR 4481 merged.  About a typo in the word validity.
+	got PR 4455 merged: about a race condition.
+	fixed PR 4547, no clean ways.
+	fixed PR 4523, about checking genesis config JSON format.
 
 2017-09-26  Yoichi Hirai  <yoichi@ethereum.org>
 
