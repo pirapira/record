@@ -1,4 +1,17 @@
+2017-09-29  Yoichi Hirai  <yoichi@ethereum.org>
+
 2017-09-28  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* cpp-ethereum: fixed PR 4547 about a race condition.
+	got PR 4553 merged about another race condition.
+
+	* byzantium: added some more tests in the spreadsheet
+
+	* comm: still drawing slides for Cancun
+	started an article about vault.bbo
+
+	* eth-isabelle: added some tests for rlp_of_transaction
+	I wonder if this should be in this repository, or in some Ethereum module
 
 2017-09-27  Yoichi Hirai  <yoichi@ethereum.org>
 
