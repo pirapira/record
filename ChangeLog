@@ -1,4 +1,16 @@
+2017-10-04  Yoichi Hirai  <yoichi@ethereum.org>
+
 2017-09-29  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* pos: merged a much nicer proof for the minimum slashing conditions.
+
+	* comm: drew some slides for Cancun
+
+	* kevm: installed pandoc-tangle on the old machine.
+
+	* cpp-ethereum: fixed PR 4566, which is about renaming the file TransactionBase.h, got it merged.
+
+	* bamboo: planned how to do bytestrings
 
 2017-09-28  Yoichi Hirai  <yoichi@ethereum.org>
 
