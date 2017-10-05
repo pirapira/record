@@ -1,4 +1,19 @@
+2017-10-05  Yoichi Hirai  <yoichi@ethereum.org>
+
 2017-10-04  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* kevm: succeeded in building KtoIsabelle
+	what next?  Translating KEVM into Isabelle maybe.
+
+	* comm: drew one picture about the vault
+	drew some slides for Cancun
+	answered several questions about eth-isabelle
+	trying to organize a trip
+	reviewed some project prospect
+
+	* cpp-ethereum: ThreadSanitizer on eth/eth
+	review PR 4572
+	review PR 4545, 4567
 
 2017-09-29  Yoichi Hirai  <yoichi@ethereum.org>
 
