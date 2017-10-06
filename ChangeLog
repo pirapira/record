@@ -1,4 +1,10 @@
+2017-10-06  Yoichi Hirai  <yoichi@ethereum.org>
+
 2017-10-05  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* casper: found a new version.  started working on it.
+
+	* cpp-ethereum: filed ??? about ThreadSanitizer
 
 2017-10-04  Yoichi Hirai  <yoichi@ethereum.org>
 
