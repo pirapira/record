@@ -1,4 +1,10 @@
+2017-10-09  Yoichi Hirai  <yoichi@ethereum.org>
+
 2017-10-06  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* casper: safety proof on the new version finished.
+
+	* comm: gave comments about a new language.
 
 2017-10-05  Yoichi Hirai  <yoichi@ethereum.org>
 
