@@ -1,4 +1,19 @@
+2017-10-10  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* comm: read a draft
+
 2017-10-09  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* cpp-ethereum: PR 4579 about removing TSAN warning: working with Andrei
+
+	* metropolis: added some test cases in the spreadsheet
+
+	* eth-isabelle: implemented address-to-byte list conversion function, but CI is failing.  needs investigation.
+
+	* bamboo: some progress on the spec
+	Commented on PR 208.
+
+	* hive: worked on issue 81 about genesis config format for cpp-ethereum
 
 2017-10-06  Yoichi Hirai  <yoichi@ethereum.org>
 
