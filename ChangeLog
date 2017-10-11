@@ -1,4 +1,17 @@
+2017-10-11  Yoichi Hirai  <yoichi@ethereum.org>
+
 2017-10-10  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* cpp-ethereum: still working on PR 4579
+	reviewed 4592, 4587
+
+	* metropolis: created one test case following an interesting input to modexp
+
+	* eth-isabelle: started using Isabelle 2017
+	A type error happens in Apply_Trace.thy
+	jEdit now does not open the missing dependencies automatically.
+
+	* casper: cleaned up the one message safety proof.
 
 	* comm: read a draft
 
