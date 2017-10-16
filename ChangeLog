@@ -1,4 +1,24 @@
+2017-10-16  Yoichi Hirai  <yoichi@ethereum.org>
+
+2017-10-13  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* byzantium: added one test case to ethereum/tests
+
+	* comm: wrote slides until picture 12
+
+	* bamboo: trying to release 0.0.02 (PR 209)
+	merged a PR about decimal literal.
+
+	* eth-isabelle: adjusted the Travis build to Isabelle2017
+
+	* ../bamboo/doc/spec.tex (section{Sentences}):
+	started listing sentences.
+
 2017-10-12  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* cpp-ethereum: PR 4579, fixed and further added protections
+
+	* env: set up a new home server
 
 2017-10-11  Yoichi Hirai  <yoichi@ethereum.org>
 
