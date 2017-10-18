@@ -1,4 +1,40 @@
+2017-10-18  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* env: got a new mouse.  I couldn't drag things with the old one.
+
+2017-10-17  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* bamboo: defining blocks in the bamboo spec
+
+	* homestead-guide: found that the content is not updated to the github contents.  Raised an issue.
+
+	* tests: fixed PR 356 according to @winsvega's opinion
+
+	* comm: preparing cancun slides
+	started preparing cancun trip in details
+
+	* cpp-ethereum: tried to reproduce issue 3586, but could not using the original commit.
+	Still working on PR 4579
+
 2017-10-16  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* comm: wrote something on reddit.
+	
+
+	* cpp-ethereum: still working on PR 4579 about ThreadSanitizer warnings.
+
+	* casper: A note on data availability and erasure coding.  Started wondering about the multidimensional thing.
+
+	* evmjit: reviewed PR 135 partially about CREATE return data.
+
+	* eth-isabelle: started implementing rlp_of_transaction function.  This is for the blockchain tests.
+	removed the keyword ""
+
+	* meta: task list cleanup.  many moved from priority:H to priority:M
+
+	* bamboo: saw 0.0.02 on opam
+
+	* test: fixed testeth --all run, but dimitry was quicker
 
 2017-10-13  Yoichi Hirai  <yoichi@ethereum.org>
 
