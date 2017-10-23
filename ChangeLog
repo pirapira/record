@@ -1,4 +1,39 @@
+2017-10-23  Yoichi Hirai  <yoichi@ethereum.org>
+
+2017-10-20  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* cpp-ethereum: tsan-easy branch had a problem in mac build in Travis.
+	I could not reproduce this on my mac.
+	reviewed pr 4612
+
+	* comm: don't get those tokens... post.
+	saw the SSL cert fixed.
+	drew cancun slides on paper.
+	added Function Signature database to the awesome EVM list.
+
+2017-10-19  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* cpp-ethereum: fixed the split PR 4609 about ThreadSanitizer warnings
+
+	* comm: cancun slides, drawing more on paper
+	wrote a blog post about vault
+
 2017-10-18  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* awesome-ethereum-virtual-machine:
+	started trying mythril
+
+	* bamboo: rewrote vault.bbo with numeric literals.
+
+	* cpp-ethereum:
+	moving m_tq to Client from ClientBase
+	cpp 4579, fixed build on gcc 4.x and split the PR.
+	closed 3586
+
+	* comm: started writing a snapshot blog post
+	updated the formal verification overview a little bit.
+	writing a blog post about vault.bbo
+	started writing a warning about tokens
 
 	* env: got a new mouse.  I couldn't drag things with the old one.
 
