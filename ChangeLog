@@ -1,4 +1,22 @@
+2017-10-25  Yoichi Hirai  <yoichi@ethereum.org>
+
 2017-10-24  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* cpp-ethereum: rebased PR 4610, rebased PR 4579
+
+	* comm: preparing cancun slides.
+	thought a bit about counterfactual deployment.  Ah, the cost of exodus is better with Plasma, maybe.
+
+	* eth-isabelle: updating README about the Isabelle version
+	closed issue 431
+
+	* bamboo: a bit of specification: contracts.
+
+	* comm: read "An Empirical Study on the Correctness of Formally Verified..."
+	very interesting.  Don't believe UDP packets arrive.  System programming is hard.
+	Added a link to the README of Bamboo, to a blog post about implementing a vault.
+
+	* casper: started the safety proof for dynamic validator sets for the one-message protocol.
 
 2017-10-23  Yoichi Hirai  <yoichi@ethereum.org>
 
