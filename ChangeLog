@@ -1,4 +1,33 @@
+2017-10-27  Yoichi Hirai  <yoichi@ethereum.org>
+
+2017-10-26  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* bamboo: fix PR 226
+
+	* cpp-ethereum: review PRs 4625, 4627
+
+	* comm: preparing cancun slides.  practiced one talk
+	reading a mathematical draft
+	got the idea of stateless client
+
+	* EVM-awesome: edited a bit.
+
 2017-10-25  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* env: updated some of my nodes.
+
+	* cpp-ethereum: reviewed PR 4627
+
+	* bamboo: in the specification, writing how to evaluate array access expressions.
+
+	* eth-isabelle: saw a PR error, but could not reproduce locally.
+
+	* test: a new case about calling modexp with modsize=1 and checking the return size.
+	reviewed PR 365
+
+	* comm: preparing cancun slides.  One more talk.
+
+	* casper: slowly defining things in one-message casper with dynamic validator sets.
 
 2017-10-24  Yoichi Hirai  <yoichi@ethereum.org>
 
