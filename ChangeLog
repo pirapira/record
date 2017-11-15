@@ -1,6 +1,45 @@
+2017-11-15  Yoichi Hirai  <yoichi@ethereum.org>
+
+2017-11-14  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* cpp-ethereum: filed a fix to issue 4642.
+
+	* bamboo: added default methods to vault.bbo
+
+	* comm: had a look at laser-ethereum
+	added laser-ethereum to awesome-ethereum-virtual-machine list
+	spent some time reading early crypto writings.
+	Fast Reed Solomon Interactive Oracle Proofs of Proximity: noticed I need the FFT thing.
+	answered people interested in formal methods, where to start https://yoichihirai.com/fm.html
+	deflected an interview request.
+
+	* casper: defined a fork in the dynamic-validator one-message setting
+
+2017-11-13  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* comm: reading mythril
+
+	* tests: confirmed that a test case is already in the repository
+	https://docs.google.com/spreadsheets/d/1xat7UI8GtB4ZGVdlK5_XQSHJZaMThi4SrlcL8XMZb5Q/edit#gid=1605675414&range=D48
+
+2017-11-10  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* comm: checked what moon-browser is
+	saw a demo of moon at Devcon3
+	skimmed ethereumresearch discourse pages
+	"hello PLT researchers" document, thought about it a bit.
+	explored a bit of the research github repos.
+
 2017-11-09  Yoichi Hirai  <yoichi@ethereum.org>
 
+	* bamboo: created an issue about call x then become A().
+
+	* env: recovering from jet-lag and a 44 hour trip
+
 	* comm: was in Devcon3
+	checked https://edwinb.wordpress.com/2016/10/21/state-machines-all-the-way-down/ kind of ideal for implementing RDBMS
+	watched https://www.youtube.com/watch?v=6JZgCuRrtyo
+
 
 2017-10-26  Yoichi Hirai  <yoichi@ethereum.org>
 
