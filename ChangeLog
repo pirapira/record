@@ -1,4 +1,11 @@
+2017-11-16  Yoichi Hirai  <yoichi@ethereum.org>
+
 2017-11-15  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* comm: read a draft about blockchain governance.
+	reading a draft.
+
+	* casper: made some progress in dynamic validator set with one-message CFG (in Isabelle)
 
 2017-11-14  Yoichi Hirai  <yoichi@ethereum.org>
 
