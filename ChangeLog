@@ -1,4 +1,20 @@
+2017-11-20  Yoichi Hirai  <yoichi@ethereum.org>
+
+2017-11-17  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* comm: got EIPs editorship.  Going around EIPs in a round-robin manner.
+	Still reading the Reed-solomon proximity proof paper.
+	Read Week in Ethereum News.
+
+	* casper: got answers to my questions.  Somehow convinced those rules work.
+	Adjusted statements and definitions.
+	Figured that the chosen next validator set can change from checkpoints to checkpoints.
+
 2017-11-16  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* tests: reviewed one test PR
+
+	* casper: stuck in the dynamic validator set case, started asking questions.
 
 2017-11-15  Yoichi Hirai  <yoichi@ethereum.org>
 
