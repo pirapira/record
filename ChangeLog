@@ -1,3 +1,7 @@
+2017-11-24  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* casper: spent the whole week on the accountable safety proof with dynamic validator sets and one-message protocol.
+
 2017-11-20  Yoichi Hirai  <yoichi@ethereum.org>
 
 2017-11-17  Yoichi Hirai  <yoichi@ethereum.org>
