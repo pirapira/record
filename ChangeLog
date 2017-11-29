@@ -1,3 +1,20 @@
+2017-11-29  Yoichi Hirai  <yoichi@ethereum.org>
+
+2017-11-28  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* sick: spent in bed
+
+2017-11-27  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* EIPs: tried to finalize PR 198, but noticed a copyright problem.
+
+	* academic: performed paper reviews
+
+	* cpp-ethereum: andrei finished 4579.
+	reviewing 4625, 4658
+
+	* casper: the proof got stuck about accountable safety with dynamic validator set.  Asked a question with a counterexample.
+
 2017-11-24  Yoichi Hirai  <yoichi@ethereum.org>
 
 	* casper: spent the whole week on the accountable safety proof with dynamic validator sets and one-message protocol.
