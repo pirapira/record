@@ -1,4 +1,12 @@
+2017-11-30  Yoichi Hirai  <yoichi@ethereum.org>
+
 2017-11-29  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* recovering: worked at home
+
+	* cpp-ethereum: reviewed 4658, 4654
+
+	* casper: continuing with a stricter double_vote rule.
 
 2017-11-28  Yoichi Hirai  <yoichi@ethereum.org>
 
