@@ -1,4 +1,15 @@
+2017-12-01  Yoichi Hirai  <yoichi@ethereum.org>
+
 2017-11-30  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* casper: finished accountable safety on dynamic validator sets somehow
+
+	* EIP #206, some bureaucratic changes
+	EIP #462, some formalities
+	EIP #658, some formalities
+	EIP #198, some formalities
+
+	* cpp: reviewing #4664
 
 2017-11-29  Yoichi Hirai  <yoichi@ethereum.org>
 
