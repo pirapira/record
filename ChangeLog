@@ -1,10 +1,72 @@
+2017-12-08  Yoichi Hirai  <yoichi@ethereum.org>
+
+2017-12-07  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* eth-isabelle: CI fixed on master.
+
+	* read: 0x, mechanism design, hydra, statebox, ztrust.tech, SEP logic and games, metamath. ERC20-K, finite fields.
+
+	* bamboo: planned vault.bbo verification.
+	small progress on the specification.
+
+	* test: adding two GeneralStateTests about RETURNDATACOPY after REVERT in a staticcall.
+
+2017-12-06  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* eth-isabelle: fixing the CI build on master
+
+	* test: adding one GeneralStateTest about RETURNDATACOPY after REVERT in an init code.
+
+	* math: started reading the finite field book
+
+	* bamboo: small progress on the specification.
+
+	* meta: updated the project list.
+	KEVM thing and Plasma thing are the top.
+
+2017-12-05  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* awesome-ethereum-virtual-machine: removed a deprecated project from the list
+
+	* cpp-ethereum: reviewing PR 4678
+
+	* EIPs: submitted a PR #790
+
+	* plasma: somehow seeing the final picture.
+
+2017-12-04  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* cpp-ethereum: reviewing 4664.
+
+	* ../practice/simple_plasma/SimplePlasma.v: trying to model Merkle trees in Coq (axiomatically)
+
+	* casper: reading the CBC casper draft.  Now I understand what those simulations were.
+
+	* comm: understood k-bucket algorithms
+	sent an email to KEVM maintainer
+
+	* EIPs: mainly working on PRs 212 and 214.
+
 2017-12-01  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* cpp-ethereum: reviewed 4637
+
+	* EIPs: some editing.
+	pushing for more CC0.
+
+	* casper: casper economics basics, continued reading.
+
+	* KEVM: listened to more tutorial videos
+
+	* bamboo: a little bit of spec writing
+	implemented stack overflow detection
+	thought about delegatingcall; no plans to use it at the moment
 
 2017-11-30  Yoichi Hirai  <yoichi@ethereum.org>
 
 	* casper: finished accountable safety on dynamic validator sets somehow
 
-	* EIP #206, some bureaucratic changes
+	* EIPs: #206, some bureaucratic changes
 	EIP #462, some formalities
 	EIP #658, some formalities
 	EIP #198, some formalities
