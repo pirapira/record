@@ -1,4 +1,15 @@
+2017-12-12  Yoichi Hirai  <yoichi@ethereum.org>
+
 2017-12-08  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* solidity: reviewed one or two PRs
+
+	* cpp-ethereum: reviewed 4652
+
+	* eips: reviewed some more eips
+
+	* kevm: still reading
+	wondered if there is a test that supplies just six arguments to STATICCALL; turned out there is.
 
 2017-12-07  Yoichi Hirai  <yoichi@ethereum.org>
 
