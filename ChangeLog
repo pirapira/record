@@ -1,4 +1,19 @@
+2017-12-13  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* comm: somehow reading a paper, preparing for a meeting.
+
 2017-12-12  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* KEVM: still reading evm.md collecting questions.
+
+	* sharding: got an answer to the GitHub issue I raised yesterday
+
+	* cpp-ethereum: reviewed PR 4694
+
+	* EIPs: reviewed PR 796.  No comments on 797.
+
+	* solidity: reviewed PR 3203
+	continued reviewing PR 3120
 
 2017-12-08  Yoichi Hirai  <yoichi@ethereum.org>
 
