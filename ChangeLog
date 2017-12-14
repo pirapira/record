@@ -1,4 +1,16 @@
+2017-12-14  Yoichi Hirai  <yoichi@ethereum.org>
+
 2017-12-13  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* eth-isabelle: implemented RLP encoding of nonces (just using bigint encoding)
+	found a linker error for secp256k1.
+	found Travis fails on secp256k1-ml repository.
+
+	* coredevcall: some coordination
+
+	* EIPs: reviewed PR 597.
+
+	* KEVM: finished reading evm.md  I should still sort notes for importance.
 
 	* comm: somehow reading a paper, preparing for a meeting.
 
