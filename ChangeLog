@@ -1,4 +1,21 @@
+2017-12-15  Yoichi Hirai  <yoichi@ethereum.org>
+
 2017-12-14  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* kevm: identified two most important questions.
+
+	* eth-isabelle: solved many build issues.
+
+	* env: dist-upgrade in order to solve the secp256k1-ml build issue
+
+	* tests: adding a test cases about RETURNDATACOPY after DELEGATECALL.
+
+	* bamboo: compiled vault.bbo into EVM bytecode readable from Isabelle.
+	a little bit of specification.
+
+	* ../practice/simple_plasma/SimplePlasma.v: first formulation of the first claim with lots of holes.  Maybe I should fill in holes, or maybe I should cover the second and the third claims in a patchy way first.
+
+	* eth-isabelle: fixed the compilation of OCaml code in the branch execute_blockchain_test
 
 2017-12-13  Yoichi Hirai  <yoichi@ethereum.org>
 
