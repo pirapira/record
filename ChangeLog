@@ -1,4 +1,17 @@
+2017-12-18  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* eth-isabelle: fix build
+
+	* tests: reviewed PR 382
+
+	* simpleplasma: filling in missing definitions
+
+	* safeInteger: found a nice lemma in Isabelle
+	(sint ?x + sint ?y = sint (?x + ?y)) = ((?x + ?y XOR ?x) AND (?x + ?y XOR ?y) >> size ?x - 1 = 0)
+
 2017-12-15  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* casper: https://www.youtube.com/watch?v=uQ3IqLDf-oo
 
 2017-12-14  Yoichi Hirai  <yoichi@ethereum.org>
 
