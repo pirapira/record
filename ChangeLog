@@ -1,3 +1,13 @@
+2017-12-19  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* comm: wrote about EIPs and eth-isabelle in the roundup draft.
+
+	* EIPs: reviewed PR 758
+
+	* cpp-ethereum: reviewed PR 4698 and 4670 a bit.
+
+	* eth-isabelle: fix build on execute-blockchain-test branch
+
 2017-12-18  Yoichi Hirai  <yoichi@ethereum.org>
 
 	* eth-isabelle: fix build
