@@ -1,3 +1,40 @@
+2018-01-03  Yoichi Hirai  <yoichi@ethereum.org>
+
+2018-01-02  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* bamboo: wrote a bit of specification
+
+	* KEVM: got PR 99 merged.
+
+	* awesome-ethereum-virtual-machine: added ethersplay and Manticore
+
+	* eth-isabelle: fixed PR 473.
+
+	* EIPs: reviewed PR 627, PR 808, PR 758, PR 801
+	learned about JSON RPC subscriptions
+
+	* simple-plasma: refining challengeWithdrawal function
+
+	* cpp-ethereum: reviewed PR 4735
+
+	* comm: checked https://eprint.iacr.org//2017/878
+	watched Griffith's talk in Devcon3.
+	week in ethereum news
+
+	* tests: adding a test case that tries RETURNDATACOPY and RETURNDATASIZE after a REVERT during a CALLCODE
+	reviewed #381
+
+2017-12-21  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* cpp-ethereum: reviewing 4710
+
+2017-12-20  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* simpleplasma: modeling submitBlockHeader
+	started modeling the second and the third claims
+
+	* cpp-ethereum: reviewed PR 4712
+
 2017-12-19  Yoichi Hirai  <yoichi@ethereum.org>
 
 	* comm: wrote about EIPs and eth-isabelle in the roundup draft.
