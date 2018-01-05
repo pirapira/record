@@ -1,4 +1,29 @@
+2018-01-05  Yoichi Hirai  <yoichi@ethereum.org>
+
+2018-01-04  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* tests: reviewed PR 388
+
+	* EIPs: reviewed 9 PRs.
+
+	* bamboo: rpc 2.2.0 and 2.0.0--2.0.0 had an opam packaging problem.  2.2.0 has a runtime issue, endToEnd.native hungs.
+
+	* comm: Moon
+
 2018-01-03  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* cpp-ethereum: reviewed PR 4710
+
+	* bamboo: a little bit of specification
+
+	* eth-isabelle: a little bit of rlp encoding
+
+	* comm: provided a bit of opinion about CBC sharding formulation
+
+	* awesome-ethereum-virtual-machine: added sputter
+
+	* bamboo: reported a build failure of ocaml-rpc
+	https://github.com/mirage/ocaml-rpc/issues/70
 
 2018-01-02  Yoichi Hirai  <yoichi@ethereum.org>
 
