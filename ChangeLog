@@ -1,4 +1,19 @@
+2018-01-16  Yoichi Hirai  <yoichi@ethereum.org>
+
+2018-01-15  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* plan: filtered most of middle-priority tasks into low-priority
+	planned paper writing.
+
+	* comm: tried Pyramid Scheme
+
 2018-01-05  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* metamath: got an idea how it would work.
+
+	* homestead-guide: merged a lot.
+
+	* comm: ACL2, walking tour http://www.cs.utexas.edu/users/moore/acl2/v8-0/combined-manual/index.html?topic=ACL2____A_02Walking_02Tour_02of_02ACL2
 
 2018-01-04  Yoichi Hirai  <yoichi@ethereum.org>
 
