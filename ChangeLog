@@ -1,4 +1,19 @@
+2018-01-17  Yoichi Hirai  <yoichi@ethereum.org>
+
 2018-01-16  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* comm: some internal communications
+
+	* cpp-ethereum: reviewed PR 4771, 4766, 4731
+
+	* EIPs: reviewed PR 831
+
+	* paper: setting up style files.
+
+	* tests: some discussion about reducing the number of tests
+	reviewed PR 389
+
+	* yellowpaper: try to add a branch table in YP
 
 2018-01-15  Yoichi Hirai  <yoichi@ethereum.org>
 
