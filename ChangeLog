@@ -1,4 +1,27 @@
+2018-01-22  Yoichi Hirai  <yoichi@ethereum.org>
+
+2018-01-19  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* yellowpaper: last minute fixes
+
+2018-01-18  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* comm: the paper reviews are done
+
+	* paper: wrote a bit more
+
+	* yellowpaper: merged 407
+
+	* eth-isabelle: fixed PR 477
+
 2018-01-17  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* comm: some internal communication
+	some paper reviews
+
+	* cpp-ethereum: reivewed PR 4777
+
+	* yellowpaper: changed target branches of my PRs from metropolis to master
 
 2018-01-16  Yoichi Hirai  <yoichi@ethereum.org>
 
