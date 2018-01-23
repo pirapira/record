@@ -1,4 +1,16 @@
+2018-01-23  Yoichi Hirai  <yoichi@ethereum.org>
+
 2018-01-22  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* yellowpaper: moving PRs from master to frontier.
+
+	* bamboo: a little bit of specification
+
+	* tests: found a problem in testeth.  bisecting.
+
+	* cpp-ethereum: bisecting a problem in testeth
+
+	* comm: changed the topic of the paper.
 
 2018-01-19  Yoichi Hirai  <yoichi@ethereum.org>
 
