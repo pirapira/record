@@ -1,4 +1,12 @@
+2018-01-24  Yoichi Hirai  <yoichi@ethereum.org>
+
 2018-01-23  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* tests: filed a PR about RETURNDATASIZE/RETURNDATACOPY after CREATE (from init code) that fails for a REVERT with nonempty data
+
+	* cpp-ethereum: fixed one bug introduced recently
+
+	* comm: paper, writing a bit more.
 
 2018-01-22  Yoichi Hirai  <yoichi@ethereum.org>
 
