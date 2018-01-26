@@ -1,4 +1,35 @@
+2018-01-26  Yoichi Hirai  <yoichi@ethereum.org>
+
+2018-01-25  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* comm: some survey on ACL2
+
+	* cpp-ethereum: started experimenting the geth rule
+	reviewed PR 841
+
+	* bamboo: a little bit of specification
+
+	* EIPs: reviewed some EIPs
+	reviewed 831
+
+	* idris: read the Idris book 5.3
+
 2018-01-24  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* bamboo: PR 260, discussed how to proceed
+
+	* cpp-ethereum: reviewed PR 4783, 4804
+
+	* EIPs: reviewed EIP-831
+
+	* comm: edited the formal verification overview page a bit
+	read about ERC777.
+	read about BIP32.
+	paper, defined missing macros
+
+	* yellowpaper: reopened PR 438 in a right branch
+	fixed PR 302
+	reviewed some PRs
 
 2018-01-23  Yoichi Hirai  <yoichi@ethereum.org>
 
