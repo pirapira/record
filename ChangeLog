@@ -1,4 +1,12 @@
+2018-01-29  Yoichi Hirai  <yoichi@ethereum.org>
+
 2018-01-26  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* paper: figured that availability is important
+
+	* cpp-ethereum: reviewed PR 4809
+
+	* kevm: trying to run the blockchain tests.  filed one issue.
 
 2018-01-25  Yoichi Hirai  <yoichi@ethereum.org>
 
