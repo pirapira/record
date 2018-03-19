@@ -1,4 +1,111 @@
+2018-03-19  Yoichi Hirai  <yoichi@ethereum.org>
+
+2018-03-16  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* casper: understood how validator ratios change
+
+	* wasm-semantics: reviewed PR 10
+
+	* awesome-EVM-list: added zokrates and snarky
+	tried Echidna
+
+2018-03-15  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* bamboo: fixing the build system
+
+	* paper: still filling in
+
+	* runtimeverification: a meeting
+
+2018-03-14  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* eth-isabelle: checked how to encode crypto parameters in a transaction
+
+	* paper: fixing
+
+2018-03-13  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* yellowpaper: filed two small PRs for typography
+	reviewed #596 and #597
+
+	* paper: filling more and more
+
+	* tests: filed a PR about calling identity builtin with a bigger output size than input
+
+2018-03-07  Yoichi Hirai  <yoichi@ethereum.org>
+
+2018-03-06  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* tests: decided on the format of test names
+
+	* eth-isabelle: sha3_update problem.  code generation is not working with a 'function' definition.
+
+	* cedille: tested a bit
+
+	* paper: filling more and more
+
+	* bamboo: a call with some contributors
+
+2018-03-05  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* yellowpaper: merged two PRs about elliptic curves, backporting to EIP
+
+	* tests: adding test cases for bit shifting
+
+2018-02-14  Yoichi Hirai  <yoichi@ethereum.org>
+
+2018-02-13  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* ethresearch: looked at the ring-signature based block production proposal
+
+2018-02-12  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* tests: modified ethereum/tests a bit
+
+	* testeth: worked on issue 4
+
+2018-02-08  Yoichi Hirai  <yoichi@ethereum.org>
+
+2018-02-07  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* testeth: set up circle CI in testeth repository
+
+2018-02-06  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* meeting
+
+2018-02-05  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* meeting
+
+2018-02-02  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* sharding: impurity checker should also check GAS instruction, filed a PR.
+
+2018-02-01  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* read: stateless client thing
+	sharding spec
+
+2018-01-31  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* yellowpaper: answered issue 517 about ethash
+	fixed my PR 443, 446, 323, 307, 303
+
+2018-01-30  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* yellowpaper: reviewed some PRs
+
+	* cpp-ethereum: reviewed 4809
+
+	* tests: documented difficulty tests
+	added a test case about modexp with modlen = 999188
+
+	* comm: brainstormed for Friday's interview
+
 2018-01-29  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* yellowpaper: reviewed many PRs.
 
 2018-01-26  Yoichi Hirai  <yoichi@ethereum.org>
 
