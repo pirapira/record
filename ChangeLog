@@ -1,4 +1,18 @@
+2018-03-20  Yoichi Hirai  <yoichi@ethereum.org>
+
 2018-03-19  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* awesome EVM list: added echdna into the list
+
+	* casper: seeking assumptions
+
+	* tests: travis fails when there are multiple fields of the same name in a JSON object
+
+	* paper: still debugging
+
+	* comm: joined a new channel
+
+	* cryptoeconomics: spreading the word
 
 2018-03-16  Yoichi Hirai  <yoichi@ethereum.org>
 
