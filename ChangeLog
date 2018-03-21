@@ -1,4 +1,14 @@
+2018-03-21  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* casper: changing type variables in the Isabelle proof
+
+	* ../../howm/2018/03/2018-03-21-111102.txt: some inter communication
+
 2018-03-20  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* ../paper-compare-tools/paper/paper.tex: corrected typos, filled more sentences into discussion.
+
+	* cpp-ethereum: explaining selfdestruct(this) better
 
 2018-03-19  Yoichi Hirai  <yoichi@ethereum.org>
 
