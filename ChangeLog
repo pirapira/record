@@ -1,4 +1,10 @@
+2018-03-26  Yoichi Hirai  <yoichi@ethereum.org>
+
 2018-03-23  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* tests: fixed PR 424 about arithmetic shifting
+
+	* paper: polishing
 
 2018-03-22  Yoichi Hirai  <yoichi@ethereum.org>
 
