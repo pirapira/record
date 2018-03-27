@@ -1,4 +1,18 @@
+2018-03-27  Yoichi Hirai  <yoichi@ethereum.org>
+
 2018-03-26  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* pm: commented.
+
+	* casper: commented on a Coq model
+
+	* pos: renamed variables v into epoch
+
+	* testeth: removing hera dependency.  maybe easier docker build.
+
+	* paper: filling more literature
+
+	* kevm: saw the ERC 20 verification
 
 2018-03-23  Yoichi Hirai  <yoichi@ethereum.org>
 
