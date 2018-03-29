@@ -1,6 +1,30 @@
+2018-03-29  Yoichi Hirai  <yoichi@ethereum.org>
+
+2018-03-28  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* eth-isabelle: filed a PR adding the termination proof of lexico_order
+
+	* casper: checked Isabelle features 'typedef' cannot depend on variables in a locale.
+	tried instantiating DynamicValidatorSetOneMessage
+	renamed bwd into rear
+
+	* bamboo: defined contract headers in spec
+
+	* paper: polishing
+
 2018-03-27  Yoichi Hirai  <yoichi@ethereum.org>
 
+	* casper: meeting with RV
+
+	* pos: merged a PR
+
+	* isabelle: figured out 'function' requires termination proof.
+
+	* paper: polishing.
+
 2018-03-26  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* yellowpaper: adding shifts
 
 	* pm: commented.
 
