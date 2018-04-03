@@ -1,4 +1,18 @@
+2018-04-03  Yoichi Hirai  <yoichi@ethereum.org>
+
 2018-03-29  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* bamboo: some external comm
+
+	* cpp-ethereum: filed a PR to test stShift
+
+	* eth-isabelle: trying to add lem-pdf in circleCI, timeout
+
+	* paper: polished and submitted
+
+	* env: tried k3 mode
+
+	* tests: wrote a test case that calls identity precompiled contract, specifying a bigger input than the output
 
 2018-03-28  Yoichi Hirai  <yoichi@ethereum.org>
 
