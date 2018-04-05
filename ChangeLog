@@ -1,4 +1,51 @@
+2018-04-05  Yoichi Hirai  <yoichi@ethereum.org>
+
+2018-04-04  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* tests: issue 415, started removing VM tests
+	tried retesteth and filed an issue
+
+	* casper: saw the K specs being developed
+
+	* eth-isabelle: fixed the build failure of one PR
+
+	* EIPs: rebased PR 646
+	rebased PR 689
+
+	* yellowpaper: rebased PR 307
+	reviewed PR 596
+	removed my feature branches from ethereum/yellowpaper
+
+	* bamboo: rebased PR 263
+
+	* sharding: saw sharding phase 1 spec
+
+	* awesome-evm: added haskell assembly
+
+	* read: saw the program of WTSC 2018
+	saw "Online Detection of Effectively Callback Free Objects"
+
+	* moon: reading a draft containing a type system (Victor is working on), I have to ask something to the author
+
 2018-04-03  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* env: bought a display for my home office
+
+	* awesome-evm: added jsnark (PR by amiller)
+
+	* yellowpaper: edit PR 305 as suggested
+	reviewed PR 679, 579
+
+	* tests: adding a test that runs a single REVERT (with the empty stack)
+
+	* eth-isabelle: still trying to encode a transaction as an RLP
+
+	* survey: Succinct Representation of Concurrent Trace Sets
+	circles UBI
+	Holochain
+
+	* casper: had a look at https://github.com/ethereum/casper/blob/master/IMPLEMENTATION.md
+	call with RV
 
 2018-03-29  Yoichi Hirai  <yoichi@ethereum.org>
 
