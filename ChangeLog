@@ -1,4 +1,29 @@
+2018-04-09  Yoichi Hirai  <yoichi@ethereum.org>
+
+2018-04-06  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* casper: read RV's casper model in K in development
+
+	* tests: filed an issue about fillchain with some unusual block parameters
+	fixed PR 445
+
+	* cpp-ethereum: one thread had two condition variable (Client--Worker), filed a PR unifying these
+	fixed one threadsanitizer warning
+
 2018-04-05  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* yellowpaper: removing the dashed lines
+
+	* EIPs: fixed PR 689
+
+	* survey: installed acl2
+	I think I have to choose a good first project for acl2.
+
+	* cpp-ethereum: shorter response to sigint
+
+	* ewasm: read design: should continue
+
+	* tests: identified which VM tests to go
 
 2018-04-04  Yoichi Hirai  <yoichi@ethereum.org>
 
