@@ -1,4 +1,18 @@
+2018-04-10  Yoichi Hirai  <yoichi@ethereum.org>
+
 2018-04-09  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* comm: read the script of the last coredev call.
+
+	* yellowpaper: fixed PR 391
+	filed a PR for issue 312
+	reviewed PR 648
+
+	* cpp-ethereum: fixed PR 4943
+
+	* bamboo: finally integrated the bamboo-test based on ganache-cli
+
+	* ropsten: synced geth with archive mode, to get some traces.
 
 2018-04-06  Yoichi Hirai  <yoichi@ethereum.org>
 
