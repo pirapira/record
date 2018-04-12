@@ -1,4 +1,21 @@
+2018-04-12  Yoichi Hirai  <yoichi@ethereum.org>
+
+2018-04-11  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* casper-rv: learned about the tool to be used
+	got an estimate of the dangerous duration between finalization
+	read coming model of data structures
+
+	* tests: found more VM tests that require mocks
+
 2018-04-10  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* casper: meeting with RV. rather calm.
+
+	* cpp-ethereum: fixed PR 4943
+
+	* tests: filed a PR for the first case in issue 431 about double self-destruct
+	fixed PR 445
 
 2018-04-09  Yoichi Hirai  <yoichi@ethereum.org>
 
