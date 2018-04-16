@@ -1,4 +1,29 @@
+2018-04-16  Yoichi Hirai  <yoichi@ethereum.org>
+
+2018-04-13  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* casper-rv: some discussion about the static data structure.
+
+	* read: Victor's supercompilation for free.
+
+	* tests: PR 444. removing more tests that use special mock.
+
+	* eth-acl2: Kevin told me about it.  Spreading rumor to relevant people.
+
+	* obsidian
+
+	* eth-isabelle: implemented implement hash_of_transaction, to be tested
+
 2018-04-12  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* read: http://vitalik.ca/general/2017/12/17/voting.html
+
+	* casper-rv: checked how Isabelle behaves with rational numbers
+	porting the Coq model into Isabelle somehow
+
+	* comm: meeting with some researchers
+
+	* kevm: reviewed https://github.com/kframework/evm-semantics/pull/183
 
 2018-04-11  Yoichi Hirai  <yoichi@ethereum.org>
 
