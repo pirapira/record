@@ -1,4 +1,19 @@
+2018-04-17  Yoichi Hirai  <yoichi@ethereum.org>
+
 2018-04-16  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* yellowpaper: reviewed PRs 684 and 685
+
+	* bamboo: trying to update cpp-ethereum used for testing the compiler
+	sketched the format of storage layout information.
+
+	* casper-rv: practiced quotient type in Isabelle/HOL
+
+	* survey: saw a bit of Adami Chlipala's talk in CCC
+
+	* testeth: document in README how to run tests in parallel
+
+	* awesome-evm: added eth-acl2
 
 2018-04-13  Yoichi Hirai  <yoichi@ethereum.org>
 
