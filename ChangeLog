@@ -1,4 +1,15 @@
+2018-04-19  Yoichi Hirai  <yoichi@ethereum.org>
+
 2018-04-17  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* testeth: dealt with some Travis trusty change (ported .travis configuration from cpp-ethereum)
+	adding better error messages
+
+	* bamboo: fixed the failing endtoendtest.native on a newer cpp-ethereum (it was a wrong field name in genesis config)
+
+	* tests: merged PR 451
+
+	* testeth: fixed PR 28
 
 2018-04-16  Yoichi Hirai  <yoichi@ethereum.org>
 
