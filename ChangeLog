@@ -1,4 +1,34 @@
+2018-04-23  Yoichi Hirai  <yoichi@ethereum.org>
+
+2018-04-20  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* yellowpaper: improved PR 305
+
+	* ethereumjs: commented on PR 272
+
+	* testeth: rebased PR 28
+
+	* tests: implemented DoubleSelfdestructTest2
+	fixed PR 455, 447
+
+	* eth-isabelle: found a test in cpp-ethereum that computes the hash of a transaction
+
 2018-04-19  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* kevm: saw PR 187.  typed exception
+
+	* testeth: fixed PR 31, 24
+
+	* tests: adding a new test about double selfdestruct by a single contract
+
+	* rlp-ocaml: fixed uninstall in `opam` file so that it removes META file
+
+	* bamboo: added obsidian into readme
+
+	* yellowpaper: investigated PR 305.  still discussion with Nick S.
+
+	* read: really a nice blog https://raywang.tech/2017/12/20/Formal-Verification:-The-Gap-between-Perfect-Code-and-Reality
+	about commitment schemes
 
 2018-04-17  Yoichi Hirai  <yoichi@ethereum.org>
 
