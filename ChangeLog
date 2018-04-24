@@ -1,4 +1,16 @@
+2018-04-24  Yoichi Hirai  <yoichi@ethereum.org>
+
 2018-04-23  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* general-merkel
+
+	* cpp-ethereum: reviewed 4974
+
+	* comm: heard the coredev mtg.
+
+	* tests: fixed PR 447
+
+	* travel: prepared
 
 2018-04-20  Yoichi Hirai  <yoichi@ethereum.org>
 
