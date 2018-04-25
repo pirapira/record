@@ -1,4 +1,12 @@
+2018-04-25  Yoichi Hirai  <yoichi@ethereum.org>
+
 2018-04-24  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* comm: two calls
+
+	* cpp-ethereum: reviewed 4971
+
+	* paper: fixing small mistakes
 
 2018-04-23  Yoichi Hirai  <yoichi@ethereum.org>
 
