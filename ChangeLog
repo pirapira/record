@@ -1,4 +1,19 @@
+2018-04-27  Yoichi Hirai  <yoichi@ethereum.org>
+
 2018-04-26  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* acl2: finished reading http://www.cs.utexas.edu/users/moore/publications/acl2-programming-exercises1.html
+
+	* events: sent a bio to CESC
+
+	* tests: answered a question https://github.com/ethereumjs/ethereumjs-vm/pull/272#issuecomment-384564902
+
+	* casper-rv: translated casper states from Coq to Isabelle
+	starting the dynamics
+
+	* yellowpaper: gave up PR 446 for now
+
+	* testeth: adding more words to the readme PR 34
 
 2018-04-25  Yoichi Hirai  <yoichi@ethereum.org>
 
