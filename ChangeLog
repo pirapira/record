@@ -1,4 +1,10 @@
+2018-05-02  Yoichi Hirai  <yoichi@ethereum.org>
+
 2018-04-27  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* trip: checked a few things
+
+	* casper-rv: translated a Coq function into Isabelle, the rest is for the next week
 
 2018-04-26  Yoichi Hirai  <yoichi@ethereum.org>
 
