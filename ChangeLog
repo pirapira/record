@@ -1,6 +1,16 @@
+2018-05-07  Yoichi Hirai  <yoichi@ethereum.org>
+
 2018-05-04  Yoichi Hirai  <yoichi@ethereum.org>
 
-2018-05-03  Yoichi Hirai  <yoichi@ethereum.org>
+	* yellowpaper: reviewed PR 693
+
+	* casper-rv: somehow instantiated the safety proof with lots of axioms
+
+	* bamboo: still preparing a new release
+
+	* awesome-evm: added ceagle
+
+2018-05-04  Yoichi Hirai  <yoichi@ethereum.org>2018-05-03  Yoichi Hirai  <yoichi@ethereum.org>
 
 	* bamboo: preparing a new release
 
