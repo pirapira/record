@@ -1,4 +1,42 @@
+2018-05-15  Yoichi Hirai  <yoichi@ethereum.org>
+
+2018-05-14  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* reading: gave a feedback!
+
+	* eth-acl2: seen most of it
+
+	* yellowpaper: removing a visible LaTeX command
+
+	* casper-rv: identifying validators of an epoch in a concrete execution
+
+2018-05-11  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* reading: still reading something
+
+	* bamboo: installed embark (not tried bamboo source yet)
+
+	* yellowpaper: answered a question about gas prices of ECADD and ECMUL
+
+2018-05-09  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* bamboo: wrote more about 0.0.03
+
+	* reading: something.
+
 2018-05-08  Yoichi Hirai  <yoichi@ethereum.org>
+
+	* cpp-ethereum: reviewed 4986
+
+	* bamboo: saw 0.0.03 on opam
+
+	* casper-rv: listed and ordered the next moves.
+
+	* eth-acl2: fixed one issue about signextend
+
+	* acl2: learned control-t l (ell), which writes the current region to shell
+
+	* yellowpaper: answered some questions on the gitter channel
 
 2018-05-07  Yoichi Hirai  <yoichi@ethereum.org>
 
